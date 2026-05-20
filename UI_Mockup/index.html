@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lifelong Profile — IEP Companion (MVP Mockup)</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- =========================================================
+     TOP BAR
+     ========================================================= -->
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">LP</div>
+    <div class="brand-text">
+      <div class="brand-title">Lifelong Profile</div>
+      <div class="brand-sub">IEP Companion · MVP</div>
+    </div>
+  </div>
+
+  <div class="student-switcher">
+    <div class="student-avatar">MT</div>
+    <div class="student-meta">
+      <div class="student-name">Max Thompson</div>
+      <div class="student-context">Age 9 · 4th Grade · Lincoln Elementary · Pleasanton USD</div>
+    </div>
+    <button class="ghost-btn" title="Switch student">▾</button>
+  </div>
+
+  <div class="topbar-right">
+    <button class="ghost-btn" title="Notifications">🔔</button>
+    <div class="user-chip">
+      <div class="user-avatar">ST</div>
+      <span>Sarah Thompson · Parent</span>
+    </div>
+  </div>
+</header>
+
+<!-- =========================================================
+     LAYOUT
+     ========================================================= -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar">
+    <div class="nav-section-title">Workspace</div>
+    <button class="nav-item active" data-view="overview">
+      <span class="nav-icon">●</span> Overview
+    </button>
+    <button class="nav-item" data-view="strengths">
+      <span class="nav-icon">★</span> Strengths-First Profile
+    </button>
+    <button class="nav-item" data-view="documents">
+      <span class="nav-icon">▤</span> Document Library
+    </button>
+
+    <div class="nav-section-title">IEP Tools</div>
+    <button class="nav-item" data-view="comparison">
+      <span class="nav-icon">⇋</span> Multi-Year Comparison
+      <span class="badge badge-red">7</span>
+    </button>
+    <button class="nav-item" data-view="workspace">
+      <span class="nav-icon">▦</span> Draft IEP Workspace
+    </button>
+    <button class="nav-item" data-view="script">
+      <span class="nav-icon">✎</span> Meeting Script
+    </button>
+
+    <div class="nav-section-title">Get Started</div>
+    <button class="nav-item" data-view="walkthrough">
+      <span class="nav-icon">◐</span> First-Time Walkthrough
+    </button>
+
+    <div class="sidebar-footer">
+      <div class="status-dot"></div>
+      All data encrypted · FERPA-aligned
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="content">
+
+    <!-- ============== OVERVIEW ============== -->
+    <section class="view active" id="view-overview">
+      <div class="view-header">
+        <div>
+          <h1>Overview</h1>
+          <p class="muted">A single source of truth for Max's history — built strengths-first, with every claim traceable to a document.</p>
+        </div>
+        <div class="view-actions">
+          <button class="primary-btn">+ Upload Documents</button>
+        </div>
+      </div>
+
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <div class="kpi-label">Documents Ingested</div>
+          <div class="kpi-value">47</div>
+          <div class="kpi-foot">3 historical IEPs · 18 RBT logs · 4 evaluations · 22 other</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Strengths Identified</div>
+          <div class="kpi-value good">23</div>
+          <div class="kpi-foot">Across academics, social, sensory, communication</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Red Flags vs Draft IEP</div>
+          <div class="kpi-value warn">7</div>
+          <div class="kpi-foot">3 service reductions · 2 recycled goals · 2 ignored concerns</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Meeting Readiness</div>
+          <div class="kpi-value">82%</div>
+          <div class="kpi-foot">Next meeting: June 12, 2026</div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="panel">
+          <div class="panel-header">
+            <h3>Top Findings for Your Next Meeting</h3>
+            <a class="link" data-goto="comparison">View full comparison →</a>
+          </div>
+          <ul class="finding-list">
+            <li class="finding red">
+              <div class="finding-tag">RED FLAG · Parent Concern</div>
+              <div class="finding-title">"Social engagement at recess" has been raised in <b>3 consecutive IEPs</b> and never reflected in a goal.</div>
+              <div class="finding-cite">Sources: <a href="#">IEP 2023 p.4</a> · <a href="#">IEP 2024 p.4</a> · <a href="#">IEP 2025-Draft p.5</a></div>
+            </li>
+            <li class="finding red">
+              <div class="finding-tag">RED FLAG · Service Reduction</div>
+              <div class="finding-title">Speech therapy reduced from <b>60 min/wk → 30 min/wk</b> in draft, no mastery documented.</div>
+              <div class="finding-cite">Sources: <a href="#">IEP 2024 p.12</a> · <a href="#">IEP 2025-Draft p.11</a></div>
+            </li>
+            <li class="finding amber">
+              <div class="finding-tag">CAUTION · Recycled Goal</div>
+              <div class="finding-title">Reading fluency goal recycled with same baseline (62 wpm) across 2023, 2024 — criterion lowered in draft.</div>
+              <div class="finding-cite">Sources: <a href="#">IEP 2023 p.8</a> · <a href="#">IEP 2024 p.8</a> · <a href="#">IEP 2025-Draft p.9</a></div>
+            </li>
+            <li class="finding amber">
+              <div class="finding-tag">CAUTION · Present Levels</div>
+              <div class="finding-title">Present Levels section is 87% identical to 2024 — new neuropsych evaluation not integrated.</div>
+              <div class="finding-cite">Sources: <a href="#">Neuropsych Eval Jan 2026 p.1–14</a> · <a href="#">IEP 2025-Draft p.2</a></div>
+            </li>
+            <li class="finding green">
+              <div class="finding-tag">POSITIVE · Accommodation Added</div>
+              <div class="finding-title">Sensory break schedule expanded — supported by RBT data showing 41% reduction in escalations.</div>
+              <div class="finding-cite">Sources: <a href="#">RBT Logs Oct–Dec 2025</a> · <a href="#">IEP 2025-Draft p.14</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <h3>Snapshot</h3>
+          </div>
+          <div class="snapshot">
+            <div class="snapshot-row">
+              <span class="snapshot-label">Primary diagnosis</span>
+              <span>Autism Spectrum Disorder (Level 1)</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snapshot-label">Eligibility category</span>
+              <span>Autism (AUT)</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snapshot-label">Case manager</span>
+              <span>Ms. Rivera (4th grade SpEd)</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snapshot-label">Last formal eval</span>
+              <span>Jan 14, 2026 · Dr. Judy Chen, Ph.D.</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snapshot-label">Active providers</span>
+              <span>Speech · OT · ABA (in-home)</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snapshot-label">Annual IEP due</span>
+              <span class="emph">June 12, 2026 (23 days)</span>
+            </div>
+          </div>
+          <div class="snapshot-quote">
+            "When you bring a new provider on, you can't have them read 300 pages. They need to know: who is this child, and how do we help?"
+            <div class="snapshot-quote-attr">— Sarah, Max's mom</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== STRENGTHS PROFILE ============== -->
+    <section class="view" id="view-strengths">
+      <div class="view-header">
+        <div>
+          <h1>Strengths-First Profile</h1>
+          <p class="muted">An asset-based view of Max — strengths, effective accommodations, and learning styles. This is the context the AI reasons against.</p>
+        </div>
+      </div>
+
+      <div class="strengths-grid">
+        <div class="strength-card">
+          <div class="strength-icon">📚</div>
+          <h4>Academic Strengths</h4>
+          <ul>
+            <li>Reads independently above grade level (5.2)<span class="cite">RBT log 11/14/25</span></li>
+            <li>Strong visual-spatial reasoning (95th %ile)<span class="cite">Neuropsych 1/14/26 p.7</span></li>
+            <li>Excels at pattern recognition tasks<span class="cite">Teacher report 10/2025</span></li>
+          </ul>
+        </div>
+        <div class="strength-card">
+          <div class="strength-icon">🤝</div>
+          <h4>Social Strengths</h4>
+          <ul>
+            <li>Engages 1:1 with familiar peers<span class="cite">RBT log 12/3/25</span></li>
+            <li>Responds well to scripted social stories<span class="cite">OT note 9/2025</span></li>
+            <li>Asks questions when given wait time<span class="cite">IEP 2024 p.3</span></li>
+          </ul>
+        </div>
+        <div class="strength-card">
+          <div class="strength-icon">🎨</div>
+          <h4>Effective Accommodations</h4>
+          <ul>
+            <li>Visual schedules with timers<span class="cite">RBT log avg. across 6 mo</span></li>
+            <li>Sensory breaks every 25 minutes<span class="cite">Teacher note 11/2025</span></li>
+            <li>Noise-reducing headphones during transitions<span class="cite">OT eval 8/2025</span></li>
+          </ul>
+        </div>
+        <div class="strength-card">
+          <div class="strength-icon">🧠</div>
+          <h4>Learning Styles That Work</h4>
+          <ul>
+            <li>Visual + kinesthetic over auditory<span class="cite">Neuropsych 1/14/26 p.11</span></li>
+            <li>Preview material 24h before lesson<span class="cite">Parent observation log</span></li>
+            <li>Choice between 2 tasks improves engagement<span class="cite">ABA data Q4 2025</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h3>Timeline</h3>
+          <div class="timeline-legend">
+            <span class="dot dot-eval"></span> Evaluation
+            <span class="dot dot-iep"></span> IEP
+            <span class="dot dot-milestone"></span> Milestone
+            <span class="dot dot-concern"></span> Concern
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot dot-iep"></div>
+            <div class="tl-date">Mar 2022</div>
+            <div class="tl-body"><b>Initial IEP</b> — Eligibility established under AUT. 90 min/wk speech, 60 min/wk OT.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot dot-eval"></div>
+            <div class="tl-date">Aug 2022</div>
+            <div class="tl-body"><b>Psychoeducational Evaluation</b> — Dr. Chen. Identified visual-spatial strength, working memory below average.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot dot-iep"></div>
+            <div class="tl-date">Apr 2023</div>
+            <div class="tl-body"><b>Annual IEP 2023</b> — Reading fluency goal added (target: 62 wpm). Parent raised concern: <i>social engagement at recess</i>.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot dot-milestone"></div>
+            <div class="tl-date">Nov 2023</div>
+            <div class="tl-body"><b>Sensory regulation breakthrough</b> — RBT data shows 41% drop in escalations after introducing scheduled breaks.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot dot-iep"></div>
+            <div class="tl-date">May 2024</div>
+            <div class="tl-body"><b>Annual IEP 2024</b> — Reading goal repeated (same baseline). Speech reduced 90→60 min/wk. Concern repeated.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot dot-eval"></div>
+            <div class="tl-date">Jan 2026</div>
+            <div class="tl-body"><b>Triennial Neuropsych</b> — Dr. Chen. Confirms strengths, recommends expanded social skills programming.</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot dot-concern"></div>
+            <div class="tl-date">May 2026</div>
+            <div class="tl-body"><b>Draft IEP 2026 received</b> — 5 days before scheduled meeting. <a href="#" class="link" data-goto="comparison">Review comparison</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== DOCUMENTS ============== -->
+    <section class="view" id="view-documents">
+      <div class="view-header">
+        <div>
+          <h1>Document Library</h1>
+          <p class="muted">47 documents ingested. Drag to reorder, click to open, every citation in this app links back here.</p>
+        </div>
+        <div class="view-actions">
+          <button class="primary-btn">+ Upload Documents</button>
+        </div>
+      </div>
+
+      <div class="upload-zone">
+        <div class="upload-icon">⬆</div>
+        <div><b>Drop files here</b> — PDFs, spreadsheets, emails, text logs, photos of paper notes. Anything tied to Max's history is valid input.</div>
+        <div class="muted">Average ingestion time: <b>under 2 min per PDF</b>.</div>
+      </div>
+
+      <table class="doc-table">
+        <thead>
+          <tr>
+            <th>Document</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Pages</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>📄 IEP_2026_Draft_Pleasanton.pdf</td><td><span class="pill pill-draft">Draft IEP</span></td><td>May 14, 2026</td><td>42</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 Neuropsych_Eval_Jan2026_DrChen.pdf</td><td><span class="pill pill-eval">Evaluation</span></td><td>Jan 14, 2026</td><td>28</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 IEP_2025_Annual_Pleasanton.pdf</td><td><span class="pill pill-iep">Historical IEP</span></td><td>May 8, 2025</td><td>38</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 IEP_2024_Annual_Pleasanton.pdf</td><td><span class="pill pill-iep">Historical IEP</span></td><td>May 6, 2024</td><td>35</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 IEP_2023_Annual_Pleasanton.pdf</td><td><span class="pill pill-iep">Historical IEP</span></td><td>Apr 18, 2023</td><td>32</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📊 RBT_Daily_Logs_Q4_2025.xlsx</td><td><span class="pill pill-log">RBT Log</span></td><td>Oct–Dec 2025</td><td>—</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 OT_Evaluation_Aug2025.pdf</td><td><span class="pill pill-eval">Evaluation</span></td><td>Aug 22, 2025</td><td>11</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 Teacher_Progress_Report_Nov2025.pdf</td><td><span class="pill pill-school">School Report</span></td><td>Nov 5, 2025</td><td>4</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📄 Parent_Observation_Log_2025.docx</td><td><span class="pill pill-parent">Parent Notes</span></td><td>Jan–Dec 2025</td><td>18</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+          <tr><td>📧 Email_Thread_CaseManager_Apr2026.eml</td><td><span class="pill pill-other">Email</span></td><td>Apr 28, 2026</td><td>—</td><td><span class="status ok">Processed</span></td><td><a class="link">Open</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ============== MULTI-YEAR COMPARISON ============== -->
+    <section class="view" id="view-comparison">
+      <div class="view-header">
+        <div>
+          <h1>Multi-Year IEP Comparison</h1>
+          <p class="muted">2023 · 2024 · 2025-Draft compared across six dimensions. <b class="red">7 red flags</b> detected — each links back to its source.</p>
+        </div>
+        <div class="view-actions">
+          <button class="ghost-btn">Export findings</button>
+          <button class="primary-btn" data-goto="script">Build Meeting Script →</button>
+        </div>
+      </div>
+
+      <!-- Dimension tabs -->
+      <div class="dim-tabs">
+        <button class="dim-tab active" data-dim="goals">
+          <span class="dim-num">1</span>Goal Trajectory
+          <span class="badge badge-red">2</span>
+        </button>
+        <button class="dim-tab" data-dim="present">
+          <span class="dim-num">2</span>Present Levels
+          <span class="badge badge-amber">1</span>
+        </button>
+        <button class="dim-tab" data-dim="accom">
+          <span class="dim-num">3</span>Accommodations
+        </button>
+        <button class="dim-tab" data-dim="services">
+          <span class="dim-num">4</span>Related Services
+          <span class="badge badge-red">2</span>
+        </button>
+        <button class="dim-tab" data-dim="concerns">
+          <span class="dim-num">5</span>Parent Concerns
+          <span class="badge badge-red badge-most">MOST IMPORTANT</span>
+        </button>
+        <button class="dim-tab" data-dim="behavior">
+          <span class="dim-num">6</span>Behavioral Data
+          <span class="badge badge-amber">1</span>
+        </button>
+      </div>
+
+      <!-- DIMENSION 1: GOALS -->
+      <div class="dim-content active" id="dim-goals">
+        <div class="dim-intro">
+          Recycled goals are one of the most common signs of a program <i>managing</i> a student rather than <i>advancing</i> one.
+        </div>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Goal</th>
+              <th>IEP 2023</th>
+              <th>IEP 2024</th>
+              <th>IEP 2025-Draft</th>
+              <th>Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row-red">
+              <td><b>Reading Fluency</b><span class="cell-sub">Oral reading at grade level</span></td>
+              <td>Read 62 wpm w/ 90% accuracy<span class="cell-cite">p.8</span></td>
+              <td>Read 62 wpm w/ 90% accuracy<span class="cell-cite">p.8</span></td>
+              <td class="cell-warn">Read at grade level "as appropriate"<span class="cell-cite">p.9</span></td>
+              <td><span class="verdict red">Recycled → vague</span></td>
+            </tr>
+            <tr class="row-red">
+              <td><b>Math Word Problems</b><span class="cell-sub">2-step problems</span></td>
+              <td>4/5 trials independently<span class="cell-cite">p.9</span></td>
+              <td>4/5 trials independently<span class="cell-cite">p.9</span></td>
+              <td class="cell-warn">3/5 trials with support<span class="cell-cite">p.10</span></td>
+              <td><span class="verdict red">Criterion lowered</span></td>
+            </tr>
+            <tr class="row-green">
+              <td><b>Self-Regulation</b><span class="cell-sub">Request break w/ words</span></td>
+              <td>Verbalize need 60% of opps<span class="cell-cite">p.10</span></td>
+              <td>Verbalize need 80% of opps<span class="cell-cite">p.10</span></td>
+              <td>Verbalize need 90% + identify trigger<span class="cell-cite">p.11</span></td>
+              <td><span class="verdict green">Advancing ✓</span></td>
+            </tr>
+            <tr class="row-amber">
+              <td><b>Social — Recess Engagement</b><span class="cell-sub">Initiate w/ peer</span></td>
+              <td class="cell-muted">Not present</td>
+              <td class="cell-muted">Not present</td>
+              <td class="cell-muted">Not present</td>
+              <td><span class="verdict amber">Concern never goaled</span></td>
+            </tr>
+            <tr>
+              <td><b>Written Expression</b></td>
+              <td>3 sentences w/ visual<span class="cell-cite">p.11</span></td>
+              <td>4 sentences w/ visual<span class="cell-cite">p.11</span></td>
+              <td>5 sentences, paragraph form<span class="cell-cite">p.12</span></td>
+              <td><span class="verdict green">Advancing ✓</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- DIMENSION 2: PRESENT LEVELS -->
+      <div class="dim-content" id="dim-present">
+        <div class="dim-intro">
+          Present Levels is the evidentiary foundation of the IEP. Every goal should flow from it.
+        </div>
+        <div class="three-col-compare">
+          <div class="compare-col">
+            <div class="compare-head">IEP 2024</div>
+            <div class="compare-body">
+              <p>Max is a 7-year-old male with a diagnosis of Autism Spectrum Disorder. <mark class="dup">He demonstrates strengths in visual-spatial reasoning and pattern recognition</mark>. <mark class="dup">Max has difficulty with sustained attention to non-preferred tasks and benefits from frequent breaks.</mark> He requires support to engage with peers and often plays in parallel rather than cooperatively...</p>
+              <div class="compare-cite">IEP 2024 · p.2</div>
+            </div>
+          </div>
+          <div class="compare-col">
+            <div class="compare-head">IEP 2025-Draft</div>
+            <div class="compare-body">
+              <p>Max is a 9-year-old male with a diagnosis of Autism Spectrum Disorder. <mark class="dup">He demonstrates strengths in visual-spatial reasoning and pattern recognition</mark>. <mark class="dup">Max has difficulty with sustained attention to non-preferred tasks and benefits from frequent breaks.</mark> He requires support to engage with peers and often plays in parallel rather than cooperatively...</p>
+              <div class="compare-cite">IEP 2025-Draft · p.2 · <span class="red">87% identical</span></div>
+            </div>
+          </div>
+          <div class="compare-col">
+            <div class="compare-head">Missing from Draft</div>
+            <div class="compare-body missing">
+              <ul>
+                <li><b>Triennial Neuropsych (Jan 2026)</b> — confirms expanded visual-spatial strength (95th %ile); recommends explicit social skills curriculum. <span class="cell-cite">Neuropsych p.7, p.11</span></li>
+                <li><b>OT progress (Aug 2025)</b> — motor planning improved from "needs maximal support" to "needs moderate support." <span class="cell-cite">OT eval p.4</span></li>
+                <li><b>Parent observation log</b> — Max independently uses sensory tools at home; not mentioned in school PLOP. <span class="cell-cite">Parent log 2025</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIMENSION 3: ACCOMMODATIONS -->
+      <div class="dim-content" id="dim-accom">
+        <div class="dim-intro">
+          Accommodations are how the school commits to making Max's environment work. Removals should be explained.
+        </div>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Accommodation</th>
+              <th>2023</th>
+              <th>2024</th>
+              <th>2025-Draft</th>
+              <th>Change</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Visual schedule</td><td>✓</td><td>✓</td><td>✓</td><td><span class="verdict neutral">Unchanged</span></td></tr>
+            <tr><td>Extended time on assessments</td><td>✓ (1.5×)</td><td>✓ (1.5×)</td><td>✓ (1.5×)</td><td><span class="verdict neutral">Unchanged</span></td></tr>
+            <tr class="row-green"><td>Scheduled sensory breaks</td><td>—</td><td>Every 45 min</td><td>Every 25 min</td><td><span class="verdict green">Expanded ✓</span></td></tr>
+            <tr><td>Noise-reducing headphones</td><td>✓</td><td>✓</td><td>✓</td><td><span class="verdict neutral">Unchanged</span></td></tr>
+            <tr class="row-amber"><td>Preferential seating</td><td>✓</td><td>✓</td><td>—</td><td><span class="verdict amber">Removed (no reason given)</span></td></tr>
+            <tr class="row-green"><td>Choice between 2 tasks</td><td>—</td><td>—</td><td>✓</td><td><span class="verdict green">Added ✓</span></td></tr>
+            <tr><td>Reduced visual clutter on worksheets</td><td>✓</td><td>✓</td><td>✓</td><td><span class="verdict neutral">Unchanged</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- DIMENSION 4: SERVICES -->
+      <div class="dim-content" id="dim-services">
+        <div class="dim-intro">
+          Service reductions are one of the most common ways programs quietly reduce commitment without formally acknowledging it.
+        </div>
+        <div class="services-grid">
+          <div class="service-card red">
+            <div class="service-name">Speech-Language Therapy</div>
+            <div class="bars">
+              <div class="bar-row"><span class="bar-yr">2023</span><div class="bar"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">90 min/wk</span></div>
+              <div class="bar-row"><span class="bar-yr">2024</span><div class="bar"><div class="bar-fill" style="width:67%"></div></div><span class="bar-val">60 min/wk</span></div>
+              <div class="bar-row"><span class="bar-yr">2025</span><div class="bar"><div class="bar-fill red" style="width:33%"></div></div><span class="bar-val">30 min/wk</span></div>
+            </div>
+            <div class="service-flag">⚠ Reduced 67% over 2 years. No goals marked as mastered to justify reduction.</div>
+          </div>
+          <div class="service-card red">
+            <div class="service-name">Occupational Therapy</div>
+            <div class="bars">
+              <div class="bar-row"><span class="bar-yr">2023</span><div class="bar"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">60 min/wk individual</span></div>
+              <div class="bar-row"><span class="bar-yr">2024</span><div class="bar"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">60 min/wk individual</span></div>
+              <div class="bar-row"><span class="bar-yr">2025</span><div class="bar"><div class="bar-fill red" style="width:50%"></div></div><span class="bar-val">30 min/wk <i>group</i></span></div>
+            </div>
+            <div class="service-flag">⚠ Converted from <b>individual → group</b>. No clinical justification cited in draft.</div>
+          </div>
+          <div class="service-card">
+            <div class="service-name">Counseling / Social Skills</div>
+            <div class="bars">
+              <div class="bar-row"><span class="bar-yr">2023</span><div class="bar"><div class="bar-fill" style="width:50%"></div></div><span class="bar-val">30 min/wk</span></div>
+              <div class="bar-row"><span class="bar-yr">2024</span><div class="bar"><div class="bar-fill" style="width:50%"></div></div><span class="bar-val">30 min/wk</span></div>
+              <div class="bar-row"><span class="bar-yr">2025</span><div class="bar"><div class="bar-fill" style="width:50%"></div></div><span class="bar-val">30 min/wk</span></div>
+            </div>
+            <div class="service-flag neutral">No change — despite triennial recommendation to expand.</div>
+          </div>
+          <div class="service-card good">
+            <div class="service-name">Specialized Academic Instruction</div>
+            <div class="bars">
+              <div class="bar-row"><span class="bar-yr">2023</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div><span class="bar-val">240 min/wk</span></div>
+              <div class="bar-row"><span class="bar-yr">2024</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div><span class="bar-val">240 min/wk</span></div>
+              <div class="bar-row"><span class="bar-yr">2025</span><div class="bar"><div class="bar-fill green" style="width:90%"></div></div><span class="bar-val">300 min/wk</span></div>
+            </div>
+            <div class="service-flag good">✓ Increased — aligned with reading goal needs.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIMENSION 5: PARENT CONCERNS (MOST IMPORTANT) -->
+      <div class="dim-content" id="dim-concerns">
+        <div class="dim-intro important">
+          ⭐ <b>This is the most revealing comparison.</b> A concern that appears in three consecutive IEPs and is never reflected in goals or accommodations is a documented pattern of procedural compliance without substantive response.
+        </div>
+        <table class="comparison-table concerns-table">
+          <thead>
+            <tr>
+              <th>Parent Concern</th>
+              <th>First Raised</th>
+              <th>Appeared in</th>
+              <th>Reflected in Goals?</th>
+              <th>Reflected in Accommodations?</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row-red">
+              <td><b>Social engagement at recess</b><span class="cell-sub">"Max plays alone at recess every day"</span></td>
+              <td>Apr 2023</td>
+              <td>2023, 2024, 2025</td>
+              <td><span class="x">✗ No</span></td>
+              <td><span class="x">✗ No</span></td>
+              <td><span class="verdict red">3-year pattern ignored</span></td>
+            </tr>
+            <tr class="row-red">
+              <td><b>Anxiety about substitute teachers</b><span class="cell-sub">"Meltdowns when routine changes"</span></td>
+              <td>May 2024</td>
+              <td>2024, 2025</td>
+              <td><span class="x">✗ No</span></td>
+              <td><span class="check">✓ Partial (visual schedule)</span></td>
+              <td><span class="verdict amber">Partially addressed</span></td>
+            </tr>
+            <tr class="row-green">
+              <td><b>Difficulty with handwriting</b></td>
+              <td>Apr 2023</td>
+              <td>2023, 2024</td>
+              <td><span class="check">✓ Yes (OT goal)</span></td>
+              <td><span class="check">✓ Yes (typing accommodation)</span></td>
+              <td><span class="verdict green">Resolved ✓</span></td>
+            </tr>
+            <tr class="row-red">
+              <td><b>Homework taking 3+ hours nightly</b></td>
+              <td>Nov 2025 <span class="badge-new">NEW</span></td>
+              <td>2025-Draft (noted, not addressed)</td>
+              <td><span class="x">✗ No</span></td>
+              <td><span class="x">✗ No</span></td>
+              <td><span class="verdict red">Noted only — no action</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <div class="callout-title">📋 Pre-drafted question for your meeting</div>
+          <div class="callout-body">
+            "Looking at our concerns from prior IEPs — can the team show us where each was addressed in the subsequent program? And can we confirm that our current concerns will be specifically reflected in this year's goals and accommodations rather than simply noted?"
+          </div>
+        </div>
+      </div>
+
+      <!-- DIMENSION 6: BEHAVIORAL DATA -->
+      <div class="dim-content" id="dim-behavior">
+        <div class="dim-intro">
+          Behavioral data is the most objective evidence available of whether the program is working.
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Escalation Incidents per Week (from RBT logs)</div>
+          <div class="chart">
+            <div class="chart-grid">
+              <span>10</span><span>8</span><span>6</span><span>4</span><span>2</span><span>0</span>
+            </div>
+            <div class="chart-bars">
+              <div class="cb-col"><div class="cb-bar" style="height:80%"></div><div class="cb-lbl">Q1'23</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:75%"></div><div class="cb-lbl">Q2'23</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:60%"></div><div class="cb-lbl">Q3'23</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:35%"></div><div class="cb-lbl">Q4'23</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:30%"></div><div class="cb-lbl">Q1'24</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:28%"></div><div class="cb-lbl">Q2'24</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:25%"></div><div class="cb-lbl">Q3'24</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:22%"></div><div class="cb-lbl">Q4'24</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:20%"></div><div class="cb-lbl">Q1'25</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:45%" title="Substitute teacher month"></div><div class="cb-lbl">Q2'25</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:18%"></div><div class="cb-lbl">Q3'25</div></div>
+              <div class="cb-col"><div class="cb-bar" style="height:15%"></div><div class="cb-lbl">Q4'25</div></div>
+            </div>
+          </div>
+          <div class="chart-foot">
+            <span class="trend-good">↓ Overall trend: 81% reduction since sensory breaks introduced (Nov 2023).</span>
+            <span class="trend-warn">⚠ Spike in Q2'25 corresponds to substitute teacher period — supports parent concern about routine changes.</span>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header"><h3>What's missing from the draft IEP</h3></div>
+          <ul class="finding-list">
+            <li class="finding amber">
+              <div class="finding-tag">CAUTION · Data absence</div>
+              <div class="finding-title">Draft IEP includes no behavioral data summary, despite 18 months of RBT data being available.</div>
+              <div class="finding-cite">Sources: <a href="#">RBT Logs 2024–2025</a> · <a href="#">IEP 2025-Draft p.5–6</a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== DRAFT IEP WORKSPACE ============== -->
+    <section class="view" id="view-workspace">
+      <div class="view-header">
+        <div>
+          <h1>Draft IEP Workspace</h1>
+          <p class="muted">Split-screen: read the school's draft on the left, see AI translations and findings on the right. Every finding is clickable.</p>
+        </div>
+        <div class="view-actions">
+          <button class="ghost-btn">Toggle plain-English mode</button>
+          <button class="primary-btn">+ Add my note</button>
+        </div>
+      </div>
+
+      <div class="split">
+        <div class="split-left">
+          <div class="doc-head">
+            <div class="doc-title">IEP_2026_Draft_Pleasanton.pdf</div>
+            <div class="doc-page">Page 9 of 42</div>
+          </div>
+          <div class="doc-body">
+            <h4>Annual Goal — Reading</h4>
+            <p>By the end of the IEP year, given grade-level text, Max will read with accuracy <span class="hl hl-red">"as appropriate to his level"</span> in 4 of 5 trials as measured by curriculum-based assessments.</p>
+
+            <h4>Service Delivery</h4>
+            <p>Speech-Language Services: <span class="hl hl-red">30 minutes/week, group setting</span>, provided by credentialed SLP.</p>
+            <p>Occupational Therapy: <span class="hl hl-red">30 minutes/week, group setting</span>, provided by licensed OT.</p>
+
+            <h4>Least Restrictive Environment (<span class="hl hl-blue">LRE</span>)</h4>
+            <p>Max will participate in the general education classroom 87% of the school day. Pull-out services will occur during non-academic periods to minimize loss of core instruction.</p>
+
+            <h4>Parent Input</h4>
+            <p>Parents express continued concern regarding social engagement during unstructured time. <span class="hl hl-amber">Team will continue to monitor.</span></p>
+          </div>
+        </div>
+
+        <div class="split-right">
+          <div class="ai-panel">
+            <div class="ai-panel-head">AI Insights — Page 9</div>
+
+            <div class="insight red">
+              <div class="insight-tag">🚩 Vague language</div>
+              <div class="insight-text"><b>"as appropriate to his level"</b> — this phrase replaces the specific 62 wpm criterion that was in the 2023 and 2024 goals. Vague criteria are not measurable and may make this goal legally unenforceable.</div>
+              <div class="insight-action"><b>Ask:</b> "What numeric criterion will you use to measure mastery?"</div>
+              <div class="insight-cite"><a href="#">IEP 2023 p.8</a> · <a href="#">IEP 2024 p.8</a></div>
+            </div>
+
+            <div class="insight red">
+              <div class="insight-tag">🚩 Service reduction</div>
+              <div class="insight-text">Speech reduced from <b>60 → 30 min/wk</b> and converted to <b>group</b> setting. No mastery of prior speech goals is documented in the draft.</div>
+              <div class="insight-action"><b>Ask:</b> "Which speech goals from 2024 were mastered to justify this reduction? Show the data."</div>
+              <div class="insight-cite"><a href="#">IEP 2024 p.12</a> · <a href="#">SLP progress notes</a></div>
+            </div>
+
+            <div class="insight blue">
+              <div class="insight-tag">💡 Jargon decoded</div>
+              <div class="insight-text"><b>LRE — Least Restrictive Environment</b>: federal IDEA principle requiring Max to be educated alongside non-disabled peers to the maximum extent appropriate. 87% is high; verify pull-out timing doesn't strip him of preferred subjects.</div>
+            </div>
+
+            <div class="insight amber">
+              <div class="insight-tag">⚠ Concern not addressed</div>
+              <div class="insight-text">"Team will continue to monitor" appears in 3 consecutive IEPs for the same recess concern. This phrase has no measurable obligation attached.</div>
+              <div class="insight-action"><b>Ask:</b> "Can we convert monitoring into a measurable social engagement goal with quarterly data review?"</div>
+              <div class="insight-cite"><a href="#">IEP 2023 p.4</a> · <a href="#">IEP 2024 p.4</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== MEETING SCRIPT ============== -->
+    <section class="view" id="view-script">
+      <div class="view-header">
+        <div>
+          <h1>Meeting Script</h1>
+          <p class="muted">Ready in under 2 minutes — pulled from every finding across the comparison. Print, or open on a tablet during the meeting.</p>
+        </div>
+        <div class="view-actions">
+          <button class="ghost-btn">📄 Export PDF</button>
+          <button class="ghost-btn">🖨 Print</button>
+          <button class="primary-btn">Open Presenter View</button>
+        </div>
+      </div>
+
+      <div class="script">
+        <div class="script-meta">
+          <div><b>Meeting:</b> Max Thompson — Annual IEP 2026</div>
+          <div><b>Date:</b> June 12, 2026 · 9:00 AM</div>
+          <div><b>Location:</b> Lincoln Elementary — Conference Room B</div>
+          <div><b>Attendees:</b> Sarah & David Thompson (parents) · Ms. Rivera (case mgr) · Ms. Patel (SLP) · Mr. Kim (OT) · Principal Hayes</div>
+        </div>
+
+        <div class="script-section">
+          <div class="script-step">1</div>
+          <div class="script-body">
+            <h4>Opening — Frame the meeting</h4>
+            <p>"Thank you for the draft. Before we walk through it, I'd like to share three patterns we've noticed across Max's last three IEPs. Each is backed by the documents already in his file."</p>
+          </div>
+        </div>
+
+        <div class="script-section">
+          <div class="script-step">2</div>
+          <div class="script-body">
+            <h4>Lead with strengths</h4>
+            <p>"Max has made measurable progress this year — escalations are down 81% since sensory breaks were introduced, and his self-regulation goal is on track to exceed the criterion. We want this year's plan to build on that."</p>
+            <div class="script-cite">Source: RBT Logs Q4 2023 – Q4 2025 · IEP 2024 p.10</div>
+          </div>
+        </div>
+
+        <div class="script-section red">
+          <div class="script-step">3</div>
+          <div class="script-body">
+            <h4>Concern #1 — Recess social engagement (3-year pattern)</h4>
+            <p>"This concern has been in the parent input section of every IEP since 2023, and the response each year has been 'team will continue to monitor.' I'd like to convert it into a measurable social engagement goal this year."</p>
+            <div class="script-ask"><b>Ask:</b> "Can we add a goal with a quarterly data review for peer initiation at recess?"</div>
+            <div class="script-cite">Source: <a href="#">IEP 2023 p.4</a> · <a href="#">IEP 2024 p.4</a> · <a href="#">IEP 2025-Draft p.5</a></div>
+          </div>
+        </div>
+
+        <div class="script-section red">
+          <div class="script-step">4</div>
+          <div class="script-body">
+            <h4>Concern #2 — Speech service reduction</h4>
+            <p>"The draft reduces speech from 60 to 30 minutes per week and moves it to a group setting. I haven't seen documentation that any of the 2024 speech goals were mastered."</p>
+            <div class="script-ask"><b>Ask:</b> "Can Ms. Patel walk us through which 2024 goals were mastered, and the data behind that determination?"</div>
+            <div class="script-cite">Source: <a href="#">IEP 2024 p.12</a> · <a href="#">IEP 2025-Draft p.11</a></div>
+          </div>
+        </div>
+
+        <div class="script-section red">
+          <div class="script-step">5</div>
+          <div class="script-body">
+            <h4>Concern #3 — Recycled reading goal with weakened language</h4>
+            <p>"The reading goal in 2023 and 2024 was specific: 62 words per minute with 90% accuracy. The draft uses 'as appropriate to his level.' That's not measurable."</p>
+            <div class="script-ask"><b>Ask:</b> "Can we restore a numeric criterion — ideally one that reflects the progress Max has made on his independent reading at home?"</div>
+            <div class="script-cite">Source: <a href="#">IEP 2023 p.8</a> · <a href="#">IEP 2024 p.8</a> · <a href="#">IEP 2025-Draft p.9</a></div>
+          </div>
+        </div>
+
+        <div class="script-section amber">
+          <div class="script-step">6</div>
+          <div class="script-body">
+            <h4>Integration of new evaluation</h4>
+            <p>"Dr. Chen completed Max's triennial neuropsych in January and recommended an explicit social skills curriculum. I don't see that recommendation in the Present Levels or services."</p>
+            <div class="script-ask"><b>Ask:</b> "How will Dr. Chen's recommendation be incorporated into this year's plan?"</div>
+            <div class="script-cite">Source: <a href="#">Neuropsych Eval Jan 2026 p.11</a> · <a href="#">IEP 2025-Draft p.2</a></div>
+          </div>
+        </div>
+
+        <div class="script-section">
+          <div class="script-step">7</div>
+          <div class="script-body">
+            <h4>Closing — Agreement on next steps</h4>
+            <p>"To make sure we leave aligned: which of these will be in the revised draft before we sign, and which need follow-up after the meeting?"</p>
+          </div>
+        </div>
+
+        <div class="script-footer">
+          <div class="script-footer-row"><span>Generated:</span> May 20, 2026 · 11:42 AM</div>
+          <div class="script-footer-row"><span>Sources cited:</span> 11 documents · 23 page references</div>
+          <div class="script-footer-row"><span>Hallucination check:</span> ✓ Every claim resolves to an uploaded source.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== FIRST-TIME WALKTHROUGH ============== -->
+    <section class="view" id="view-walkthrough">
+      <div class="view-header">
+        <div>
+          <h1>First-Time IEP Walkthrough</h1>
+          <p class="muted">New to this? See what a strong IEP looks like — using anonymized exemplary profiles from your school district.</p>
+        </div>
+      </div>
+
+      <div class="walk-grid">
+        <div class="walk-step">
+          <div class="walk-num">1</div>
+          <h4>What is an IEP?</h4>
+          <p>A legally binding plan a school must produce each year for a child with special needs. Once signed, the school must follow it.</p>
+        </div>
+        <div class="walk-step">
+          <div class="walk-num">2</div>
+          <h4>See an exemplary IEP</h4>
+          <p>Browse 3 anonymized model IEPs from Pleasanton USD for children with similar profiles to your child.</p>
+          <a class="link">Open exemplar library →</a>
+        </div>
+        <div class="walk-step">
+          <div class="walk-num">3</div>
+          <h4>Build your draft</h4>
+          <p>Use our guided builder to assemble the documents and questions that will help you request your first IEP.</p>
+          <a class="link">Start draft →</a>
+        </div>
+        <div class="walk-step">
+          <div class="walk-num">4</div>
+          <h4>Walk into the meeting prepared</h4>
+          <p>Generate a Meeting Script so you know exactly what to ask, and what evidence supports each request.</p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <div class="callout-title">A note on this tool</div>
+        <div class="callout-body">
+          This system provides decision support only. Final educational and clinical decisions remain with you and the professionals on your team. Every AI claim links back to a source document — if you can't see the citation, you can question the claim.
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
