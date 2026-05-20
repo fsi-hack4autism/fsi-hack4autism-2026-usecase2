@@ -26,6 +26,9 @@ Chaitali Ladikkar
 # Prompt Chips
 - Ryan Cheng
 
+# IEP Comparision / Progress Analysis
+- Chaitali Ladikkar
+
 # Use cases
 - New parent/user
 - Existing user comparing previous IEP
