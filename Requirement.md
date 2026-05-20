@@ -63,7 +63,52 @@ Two parents on the team live this process every year. The problem they described
 
 ---
 
-## 4. Scope Boundaries (Hackathon Constraints)
+## 4. Recommended Workflow & Architecture
+
+```text
+PDF / Document Upload
+        ↓
+Google Cloud Storage
+        ↓
+Document AI — extracts text from scanned & mixed-format PDFs
+        ↓
+Gemini — summarizes history
+        ↓
+Gemini — generates strengths, needs, timeline, recommendations
+        ↓
+Cloud Run — displays dashboard
+```
+
+### Architecture Notes
+
+- **Document Upload:** Families and providers submit existing evaluations, IEPs, session notes, and reports without changing their current workflow.
+- **Google Cloud Storage:** Acts as durable, scalable document storage and a clean handoff point for downstream processing.
+- **Document AI:** Converts scanned and mixed-format PDFs into structured text so key educational and clinical details are machine-readable.
+- **Gemini (history summary):** Produces a concise, chronological view of the child's background to reduce prep time for IEP conversations.
+- **Gemini (profile generation):** Turns extracted evidence into actionable, strengths-first planning inputs aligned with IEP preparation — including strengths, needs, timeline, and meeting recommendations.
+- **Cloud Run dashboard:** Hosts a lightweight, secure web dashboard that presents outputs to families and team members in one place, including the split-screen IEP comparison workspace.
+
+---
+
+## 5. Non-Functional Requirements
+
+- **Privacy & compliance:** All child and family data must be encrypted in transit and at rest. Access must follow least-privilege principles and support FERPA-aligned handling practices.
+- **Consent & access control:** Only authorized users (parent/guardian and approved providers) can view a profile. The system must support role-based access and clear permission boundaries.
+- **Traceability:** Every generated summary, strength, need, and recommendation must include source references to original documents and page numbers.
+- **Explainability:** AI outputs must be presented in plain language with confidence signals or uncertainty notes where applicable.
+- **Latency targets:**
+  - Document ingestion to extracted text: under 2 minutes for typical PDFs.
+  - Profile summary generation after extraction: under 30 seconds.
+  - Dashboard page load: under 3 seconds on standard broadband.
+- **Reliability:** Core workflow availability target of 99.9% monthly uptime for upload, processing, and dashboard access.
+- **Scalability:** The platform must support concurrent uploads and processing jobs without significant degradation in user-facing response times.
+- **Observability & audit:** Maintain audit logs for uploads, processing events, model output generation, and user access actions.
+- **Data retention & deletion:** Define configurable retention windows and support secure deletion on request.
+- **Human-in-the-loop safety:** The system provides decision support only; final educational and clinical decisions remain with families and professionals.
+
+---
+
+## 6. Scope Boundaries (Hackathon Constraints)
 
 ### In-Scope for MVP
 
@@ -79,7 +124,7 @@ Two parents on the team live this process every year. The problem they described
 
 ---
 
-## 5. MVP Success Criteria
+## 7. MVP Success Criteria
 
 - **Accuracy & Trust:** Zero hallucinated data points. Every discrepancy flagged must map directly to a verified uploaded source file.
 - **Time-to-Insight:** A user must be able to upload a complex 40-page draft document and receive a structured "Meeting Script" containing actionable negotiation points in under two minutes.
