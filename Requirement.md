@@ -26,6 +26,29 @@ Two parents on the team live this process every year. The problem they described
 > *"When you bring a new provider on, you can't have them read 300 pages. They need to know: who is this child, and how do we help?"*
 
 ---
+Upload Records
+      ↓
+Cloud Storage
+      ↓
+Document AI
+      ↓
+Text Extraction + Structuring
+      ↓
+Chunking
+      ↓
+Vertex AI Embeddings
+      ↓
+Vertex AI Vector Search
+      ↓
+RAG Layer using Vertex AI / LangChain
+      ↓
+Gemini Summary + Recommendations
+      ↓
+Firestore / BigQuery Storage
+      ↓
+Cloud Run App
+      ↓
+Dashboard / Timeline
 
 ## 3. Our key insight: build the person, not the deficit
 
