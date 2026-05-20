@@ -3,3 +3,38 @@ Team:
 Ryan Cheng
 Nihal
 Chaitali Ladikkar
+
+
+Requirements/User Stories
+- Charles
+- Erin
+
+UI Mock Up
+- Hanuja
+
+Synthentic data generation
+- Nihal
+- Bobby
+
+Presentation
+- Ratish
+
+Evaluate Chat Response
+- Charles
+- Bobby
+
+Prompt Chips
+- Ryan Cheng
+
+Use cases
+- New parent/user
+- Existing user comparing previous IEP
+
+Action Items
+- Unique scenario combinations (Check with Charles and Jeff)
+
+Progress
+- Create cloud storage
+  - iep-template
+  - student-data
+- Successful querying with data-connectors    
