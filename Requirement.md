@@ -28,3 +28,53 @@ Two parents on the team live this process every year. The problem they described
 ---
 
 So the profile we build should capture, for one individual:
+
+## 3. Recommended Workflow
+
+```mermaid
+flowchart TD
+	A[PDF Upload] --> B[Google Cloud Storage]
+	B --> C[Document AI extracts text]
+	C --> D[Gemini summarizes history]
+	D --> E[Gemini generates strengths, needs, timeline, recommendations]
+	E --> F[Cloud Run displays dashboard]
+```
+
+```text
+PDF Upload
+	↓
+Google Cloud Storage
+	↓
+Document AI extracts text
+	↓
+Gemini summarizes history
+	↓
+Gemini generates strengths, needs, timeline, recommendations
+	↓
+Cloud Run displays dashboard
+```
+
+### Architecture Notes
+
+- **PDF Upload:** Families and providers can submit existing evaluations, IEPs, session notes, and reports without changing their current workflow.
+- **Google Cloud Storage:** Acts as durable, scalable document storage and a clean handoff point for downstream processing.
+- **Document AI extracts text:** Converts scanned and mixed-format PDFs into structured text so key educational and clinical details are machine-readable.
+- **Gemini summarizes history:** Produces a concise, chronological view of the child's background to reduce prep time for IEP conversations.
+- **Gemini generates strengths, needs, timeline, recommendations:** Turns extracted evidence into actionable, strengths-first planning inputs aligned with IEP preparation.
+- **Cloud Run displays dashboard:** Hosts a lightweight, secure web dashboard that presents outputs to families and team members in one place.
+
+## 4. Non-Functional Requirements
+
+- **Privacy & compliance:** All child and family data must be encrypted in transit and at rest. Access must follow least-privilege principles and support FERPA-aligned handling practices.
+- **Consent & access control:** Only authorized users (for example, parent/guardian and approved providers) can view a profile. The system must support role-based access and clear permission boundaries.
+- **Traceability:** Every generated summary, strength, need, and recommendation must include source references to original documents/snippets.
+- **Explainability:** AI outputs should be presented in plain language with confidence signals or uncertainty notes where applicable.
+- **Latency targets:**
+	- Document ingestion to extracted text: target under 2 minutes for typical PDFs.
+	- Profile summary generation after extraction: target under 30 seconds.
+	- Dashboard page load: target under 3 seconds on standard broadband.
+- **Reliability:** Core workflow availability target of 99.9% monthly uptime for upload, processing, and dashboard access.
+- **Scalability:** The platform should support concurrent uploads and processing jobs without major degradation in user-facing response times.
+- **Observability & audit:** Maintain audit logs for uploads, processing events, model output generation, and user access actions.
+- **Data retention & deletion:** Define configurable retention windows and support secure deletion on request.
+- **Human-in-the-loop safety:** The system provides decision support only; final educational and clinical decisions remain with families and professionals.
