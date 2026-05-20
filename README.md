@@ -38,4 +38,24 @@ Progress
 - Create cloud storage
   - iep-template
   - student-data
-- Successful querying with data-connectors    
+- Successful querying with data-connectors
+
+
+Implemenation Options
+- ADK + GEAP (gemini enterprise agentic platform)
+  - building multi agentic workflows
+  - Cost
+    - App is Free
+    - Use of ai is charged
+  - Framework 
+  - https://github.com/google/adk-samples
+- Gemini Enterprise
+  - Cost
+    - App costs $60 per user per month
+    - Business version
+  - App + security + guardrails (everything is done for you)  
+- AI Studio
+  - Prototyping
+  - Building quickly
+- Notebook LLM
+  -    
