@@ -1,5 +1,5 @@
 Team:
 
-Ryan Cheng
-Nihal
-Chaitali Ladikkar
+Ryan Cheng - Fullstack Developer \
+Nihal \
+Chaitali Ladikkar \
