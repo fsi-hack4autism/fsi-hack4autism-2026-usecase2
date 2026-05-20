@@ -1,47 +1,47 @@
-Team:
+# Team:
 
 Ryan Cheng
 Nihal
 Chaitali Ladikkar
 
 
-Requirements/User Stories
+# Requirements/User Stories
 - Charles
 - Erin
 
-UI Mock Up
+# UI Mock Up
 - Hanuja
 
-Synthentic data generation
+# Synthentic data generation
 - Nihal
 - Bobby
 
-Presentation
+# Presentation
 - Ratish
 
-Evaluate Chat Response
+# Evaluate Chat Response
 - Charles
 - Bobby
 
-Prompt Chips
+# Prompt Chips
 - Ryan Cheng
 
-Use cases
+# Use cases
 - New parent/user
 - Existing user comparing previous IEP
 
-Action Items
+# Action Items
 - Unique scenario combinations (Check with Charles and Jeff)
 - Why is agent designer not working? -> Anjali 
 
-Progress
+# Progress
 - Create cloud storage
   - iep-template
   - student-data
 - Successful querying with data-connectors
 
 
-Implemenation Options
+# Implemenation Options
 - ADK + GEAP (gemini enterprise agentic platform)
   - building multi agentic workflows
   - Cost
@@ -58,4 +58,6 @@ Implemenation Options
   - Prototyping
   - Building quickly
 - Notebook LLM
-  -    
+
+# Services
+Gemini Ai Chat - Google Cloud > click on app gemini-enterprise-1779301560896 > choose an agent > chat to it
