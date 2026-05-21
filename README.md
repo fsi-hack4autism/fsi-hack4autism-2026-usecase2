@@ -28,6 +28,7 @@ Chaitali Ladikkar
 
 # IEP Comparision / Progress Analysis
 - Chaitali Ladikkar
+- Anupama Manchikalapudi 
 
 # Use cases
 - New parent/user
