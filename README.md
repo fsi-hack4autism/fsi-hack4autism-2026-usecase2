@@ -9,7 +9,7 @@ Chaitali Ladikkar
 - Charles
 - Erin
 
-# UI Mock Up
+# UI Screen 
 - Tanuja
 
 # Synthentic data generation
@@ -28,6 +28,7 @@ Chaitali Ladikkar
 
 # IEP Comparision / Progress Analysis
 - Chaitali Ladikkar
+- Anupama Manchikalapudi 
 
 # Use cases
 - New parent/user
