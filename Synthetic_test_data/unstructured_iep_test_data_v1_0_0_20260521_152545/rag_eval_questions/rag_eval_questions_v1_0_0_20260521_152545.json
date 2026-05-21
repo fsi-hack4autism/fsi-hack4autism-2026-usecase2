@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Which synthetic students require transition planning?",
+    "expected_signal": "transition_required true or transition note exists"
+  },
+  {
+    "question": "Find students with safety concerns involving parking lots or street crossings.",
+    "expected_signal": "safety/community access narratives"
+  },
+  {
+    "question": "Which services are linked to communication goals?",
+    "expected_signal": "service_logs linked_goal_area Communication"
+  },
+  {
+    "question": "Summarize behavior antecedents related to transitions.",
+    "expected_signal": "behavior_incidents antecedent transition"
+  },
+  {
+    "question": "Which documents mention assistive technology or AAC supports?",
+    "expected_signal": "AT required, AAC/core board, communication supports"
+  },
+  {
+    "question": "Identify records where transition is required but transportation planning is partial.",
+    "expected_signal": "transition notes data quality flags"
+  },
+  {
+    "question": "Generate an IEP risk checklist for a student with safety and communication concerns.",
+    "expected_signal": "risk flags in IEP narratives"
+  },
+  {
+    "question": "Find OCR-like documents where spelling errors might affect extraction.",
+    "expected_signal": "ocr_messy_notes folder"
+  }
+]

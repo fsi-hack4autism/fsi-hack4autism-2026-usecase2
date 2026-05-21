@@ -1,0 +1,17 @@
+SCANNED NOTE - OCR TEST SAMPLE
+Student: SYN-0012    Date: 2026-02-26
+Progrom: SP   Pla cement: Post-high school transition program
+
+OBSERVATlON:
+Student had difficulty with transiti0n from preferred activity to work task. Staff used visuaI schedule, first/then, and wait time. Student requested break after model prompt. Noise in hallway appeared to increase dysregulation.
+
+SAFETY/COMMUNITY:
+needs practice with parking-lot routine, waiting near group, and identifying correct bathroom in public settings. Staff remained within arm reach during community access.
+
+ACTION ITEMS:
+1. continue social story before outings
+2. collect ABC data for transition periods
+3. verify goals align to service notes
+4. consider AAC/core board for reporting pain/illness/injury
+
+OCR ARTIFACTS: some words intentionally misspelled for Document AI and RAG robustness testing.

@@ -1,0 +1,436 @@
+[
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0001_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0002_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0003_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0004_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0005_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0006_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0007_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0008_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0009_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0010_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0011_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0012_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0013_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0014_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "assessment_summaries/assessment_summary_SYN-0015_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 991,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "behavior_incidents/behavior_incidents_v1_0_0_20260521_152545.jsonl",
+    "file_type": "jsonl",
+    "size_bytes": 45967,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0001_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2867,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0002_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2896,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0003_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2884,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0004_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2912,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0005_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2899,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0006_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2880,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0007_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2912,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0008_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2911,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0009_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2907,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0010_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2899,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0011_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2889,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0012_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2897,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0013_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2904,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0014_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2895,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "iep_narratives/iep_narrative_SYN-0015_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 2885,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0002_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 851,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0003_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 851,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0006_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 861,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0008_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 866,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0011_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 861,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0012_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 858,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0013_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 872,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "ocr_messy_notes/ocr_messy_note_SYN-0015_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 866,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0001_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1432,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0002_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1452,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0003_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1421,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0004_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1481,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0005_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1472,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0006_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1479,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0007_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1481,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0008_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1483,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0009_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1485,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0010_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1480,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0011_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1460,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0012_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1477,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0013_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1489,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0014_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1457,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "parent_emails/parent_email_SYN-0015_v1_0_0_20260521_152545.txt",
+    "file_type": "txt",
+    "size_bytes": 1445,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "rag_eval_questions/rag_eval_questions_v1_0_0_20260521_152545.json",
+    "file_type": "json",
+    "size_bytes": 1279,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "service_logs/service_logs_v1_0_0_20260521_152545.jsonl",
+    "file_type": "jsonl",
+    "size_bytes": 43846,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "transition_notes/transition_note_SYN-0002_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 1228,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "transition_notes/transition_note_SYN-0007_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 1228,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "transition_notes/transition_note_SYN-0009_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 1228,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "transition_notes/transition_note_SYN-0010_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 1228,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "transition_notes/transition_note_SYN-0013_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 1228,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  },
+  {
+    "relative_path": "transition_notes/transition_note_SYN-0015_v1_0_0_20260521_152545.md",
+    "file_type": "md",
+    "size_bytes": 1228,
+    "dataset_version": "v1_0_0",
+    "generated_timestamp": "20260521_152545"
+  }
+]
