@@ -1,0 +1,5 @@
+﻿ProgressStatus,Priority,Trend,DeliveryType
+Not Started,High,Decreased,Direct
+In Progress,Medium,Stable,Consult
+Mastered,Low,Increased,Direct/Consult
+Continue,,,

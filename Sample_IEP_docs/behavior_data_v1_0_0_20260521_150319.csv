@@ -1,0 +1,121 @@
+﻿StudentID,ObservationPeriod,Behavior,Antecedent,ResponseStrategy,FrequencyCount,Trend
+SYN-0001,Week 1,bathrooming accident,difficult task,offer break card,3,Decreased
+SYN-0001,Week 2,unsafe wandering,denied access,deep pressure/sensory break,8,Decreased
+SYN-0001,Week 3,boundary violation,community outing,quiet space,7,Decreased
+SYN-0001,Week 4,unsafe wandering,waiting,fist bump/one-and-done script,6,Increased
+SYN-0002,Week 1,bathrooming accident,denied access,fist bump/one-and-done script,5,Stable
+SYN-0002,Week 2,leaving instructional area,high-interest technology removed,deep pressure/sensory break,2,Stable
+SYN-0002,Week 3,screaming/crying,unexpected change,social story review,1,Decreased
+SYN-0002,Week 4,boundary violation,loud noise,staff proximity,6,Increased
+SYN-0003,Week 1,leaving instructional area,difficult task,staff proximity,2,Stable
+SYN-0003,Week 2,leaving instructional area,loud noise,functional communication prompt,4,Decreased
+SYN-0003,Week 3,leaving instructional area,community outing,functional communication prompt,0,Stable
+SYN-0003,Week 4,self-injury,waiting,visual first/then,3,Stable
+SYN-0004,Week 1,refusal/no repeatedly,difficult task,functional communication prompt,6,Increased
+SYN-0004,Week 2,refusal/no repeatedly,waiting,visual first/then,1,Increased
+SYN-0004,Week 3,self-injury,unexpected change,social story review,0,Stable
+SYN-0004,Week 4,swiping materials,high-interest technology removed,visual first/then,7,Increased
+SYN-0005,Week 1,refusal/no repeatedly,denied access,deep pressure/sensory break,4,Increased
+SYN-0005,Week 2,boundary violation,transition,functional communication prompt,8,Decreased
+SYN-0005,Week 3,bathrooming accident,denied access,quiet space,4,Decreased
+SYN-0005,Week 4,refusal/no repeatedly,high-interest technology removed,fist bump/one-and-done script,1,Stable
+SYN-0006,Week 1,screaming/crying,unexpected change,quiet space,5,Increased
+SYN-0006,Week 2,bathrooming accident,loud noise,visual first/then,3,Decreased
+SYN-0006,Week 3,self-injury,community outing,social story review,8,Decreased
+SYN-0006,Week 4,boundary violation,high-interest technology removed,social story review,4,Increased
+SYN-0007,Week 1,screaming/crying,loud noise,staff proximity,0,Stable
+SYN-0007,Week 2,leaving instructional area,loud noise,quiet space,2,Increased
+SYN-0007,Week 3,boundary violation,unexpected change,staff proximity,7,Decreased
+SYN-0007,Week 4,unsafe wandering,difficult task,staff proximity,7,Decreased
+SYN-0008,Week 1,screaming/crying,difficult task,social story review,5,Stable
+SYN-0008,Week 2,refusal/no repeatedly,community outing,offer break card,1,Increased
+SYN-0008,Week 3,refusal/no repeatedly,community outing,deep pressure/sensory break,8,Stable
+SYN-0008,Week 4,swiping materials,difficult task,quiet space,7,Stable
+SYN-0009,Week 1,boundary violation,high-interest technology removed,fist bump/one-and-done script,8,Increased
+SYN-0009,Week 2,leaving instructional area,waiting,fist bump/one-and-done script,0,Decreased
+SYN-0009,Week 3,screaming/crying,waiting,offer break card,1,Decreased
+SYN-0009,Week 4,refusal/no repeatedly,waiting,offer break card,6,Decreased
+SYN-0010,Week 1,leaving instructional area,high-interest technology removed,visual first/then,4,Decreased
+SYN-0010,Week 2,boundary violation,high-interest technology removed,deep pressure/sensory break,5,Increased
+SYN-0010,Week 3,leaving instructional area,transition,staff proximity,4,Increased
+SYN-0010,Week 4,swiping materials,difficult task,deep pressure/sensory break,1,Decreased
+SYN-0011,Week 1,swiping materials,waiting,deep pressure/sensory break,2,Increased
+SYN-0011,Week 2,swiping materials,waiting,offer break card,0,Increased
+SYN-0011,Week 3,boundary violation,denied access,staff proximity,2,Stable
+SYN-0011,Week 4,screaming/crying,unexpected change,staff proximity,1,Increased
+SYN-0012,Week 1,screaming/crying,denied access,fist bump/one-and-done script,5,Stable
+SYN-0012,Week 2,leaving instructional area,difficult task,visual first/then,2,Decreased
+SYN-0012,Week 3,self-injury,loud noise,functional communication prompt,5,Increased
+SYN-0012,Week 4,swiping materials,loud noise,staff proximity,7,Decreased
+SYN-0013,Week 1,screaming/crying,denied access,visual first/then,1,Increased
+SYN-0013,Week 2,bathrooming accident,community outing,staff proximity,5,Decreased
+SYN-0013,Week 3,swiping materials,high-interest technology removed,deep pressure/sensory break,3,Increased
+SYN-0013,Week 4,unsafe wandering,transition,social story review,3,Increased
+SYN-0014,Week 1,swiping materials,difficult task,social story review,0,Decreased
+SYN-0014,Week 2,refusal/no repeatedly,difficult task,deep pressure/sensory break,3,Stable
+SYN-0014,Week 3,screaming/crying,transition,fist bump/one-and-done script,5,Decreased
+SYN-0014,Week 4,bathrooming accident,difficult task,fist bump/one-and-done script,8,Increased
+SYN-0015,Week 1,leaving instructional area,waiting,deep pressure/sensory break,0,Increased
+SYN-0015,Week 2,screaming/crying,transition,social story review,3,Decreased
+SYN-0015,Week 3,self-injury,difficult task,social story review,8,Stable
+SYN-0015,Week 4,bathrooming accident,difficult task,deep pressure/sensory break,8,Increased
+SYN-0016,Week 1,leaving instructional area,high-interest technology removed,deep pressure/sensory break,4,Decreased
+SYN-0016,Week 2,swiping materials,loud noise,fist bump/one-and-done script,6,Increased
+SYN-0016,Week 3,screaming/crying,high-interest technology removed,staff proximity,3,Decreased
+SYN-0016,Week 4,swiping materials,denied access,staff proximity,1,Stable
+SYN-0017,Week 1,self-injury,high-interest technology removed,visual first/then,1,Decreased
+SYN-0017,Week 2,leaving instructional area,transition,visual first/then,7,Stable
+SYN-0017,Week 3,unsafe wandering,loud noise,fist bump/one-and-done script,2,Increased
+SYN-0017,Week 4,unsafe wandering,denied access,offer break card,5,Stable
+SYN-0018,Week 1,unsafe wandering,denied access,social story review,1,Stable
+SYN-0018,Week 2,refusal/no repeatedly,community outing,offer break card,7,Increased
+SYN-0018,Week 3,leaving instructional area,community outing,visual first/then,4,Decreased
+SYN-0018,Week 4,screaming/crying,unexpected change,offer break card,0,Decreased
+SYN-0019,Week 1,swiping materials,transition,functional communication prompt,5,Stable
+SYN-0019,Week 2,leaving instructional area,loud noise,offer break card,8,Increased
+SYN-0019,Week 3,bathrooming accident,unexpected change,fist bump/one-and-done script,3,Stable
+SYN-0019,Week 4,boundary violation,high-interest technology removed,deep pressure/sensory break,5,Decreased
+SYN-0020,Week 1,self-injury,loud noise,quiet space,8,Decreased
+SYN-0020,Week 2,bathrooming accident,denied access,functional communication prompt,4,Stable
+SYN-0020,Week 3,boundary violation,denied access,functional communication prompt,0,Stable
+SYN-0020,Week 4,swiping materials,high-interest technology removed,social story review,3,Stable
+SYN-0021,Week 1,boundary violation,waiting,quiet space,8,Decreased
+SYN-0021,Week 2,leaving instructional area,transition,staff proximity,0,Decreased
+SYN-0021,Week 3,boundary violation,transition,fist bump/one-and-done script,0,Increased
+SYN-0021,Week 4,bathrooming accident,high-interest technology removed,deep pressure/sensory break,3,Increased
+SYN-0022,Week 1,swiping materials,difficult task,functional communication prompt,0,Decreased
+SYN-0022,Week 2,unsafe wandering,denied access,offer break card,3,Increased
+SYN-0022,Week 3,bathrooming accident,community outing,functional communication prompt,1,Increased
+SYN-0022,Week 4,screaming/crying,loud noise,staff proximity,1,Increased
+SYN-0023,Week 1,self-injury,difficult task,visual first/then,3,Stable
+SYN-0023,Week 2,unsafe wandering,community outing,staff proximity,5,Stable
+SYN-0023,Week 3,refusal/no repeatedly,high-interest technology removed,quiet space,1,Decreased
+SYN-0023,Week 4,leaving instructional area,denied access,visual first/then,1,Decreased
+SYN-0024,Week 1,refusal/no repeatedly,waiting,fist bump/one-and-done script,6,Decreased
+SYN-0024,Week 2,boundary violation,unexpected change,functional communication prompt,4,Stable
+SYN-0024,Week 3,unsafe wandering,denied access,deep pressure/sensory break,2,Increased
+SYN-0024,Week 4,unsafe wandering,transition,quiet space,5,Decreased
+SYN-0025,Week 1,screaming/crying,unexpected change,fist bump/one-and-done script,6,Increased
+SYN-0025,Week 2,self-injury,high-interest technology removed,social story review,2,Decreased
+SYN-0025,Week 3,bathrooming accident,waiting,quiet space,1,Stable
+SYN-0025,Week 4,screaming/crying,loud noise,deep pressure/sensory break,0,Decreased
+SYN-0026,Week 1,swiping materials,loud noise,quiet space,6,Stable
+SYN-0026,Week 2,screaming/crying,high-interest technology removed,deep pressure/sensory break,0,Decreased
+SYN-0026,Week 3,swiping materials,waiting,visual first/then,1,Stable
+SYN-0026,Week 4,screaming/crying,transition,functional communication prompt,0,Decreased
+SYN-0027,Week 1,bathrooming accident,difficult task,functional communication prompt,0,Stable
+SYN-0027,Week 2,bathrooming accident,loud noise,fist bump/one-and-done script,3,Decreased
+SYN-0027,Week 3,unsafe wandering,high-interest technology removed,functional communication prompt,2,Decreased
+SYN-0027,Week 4,swiping materials,high-interest technology removed,functional communication prompt,6,Increased
+SYN-0028,Week 1,refusal/no repeatedly,transition,deep pressure/sensory break,4,Stable
+SYN-0028,Week 2,leaving instructional area,difficult task,quiet space,8,Decreased
+SYN-0028,Week 3,self-injury,difficult task,fist bump/one-and-done script,7,Increased
+SYN-0028,Week 4,refusal/no repeatedly,community outing,fist bump/one-and-done script,6,Stable
+SYN-0029,Week 1,leaving instructional area,transition,fist bump/one-and-done script,3,Decreased
+SYN-0029,Week 2,unsafe wandering,transition,functional communication prompt,8,Stable
+SYN-0029,Week 3,swiping materials,loud noise,deep pressure/sensory break,3,Increased
+SYN-0029,Week 4,swiping materials,high-interest technology removed,offer break card,3,Increased
+SYN-0030,Week 1,bathrooming accident,community outing,visual first/then,2,Decreased
+SYN-0030,Week 2,boundary violation,community outing,offer break card,5,Increased
+SYN-0030,Week 3,leaving instructional area,unexpected change,functional communication prompt,8,Stable
+SYN-0030,Week 4,leaving instructional area,waiting,offer break card,1,Decreased

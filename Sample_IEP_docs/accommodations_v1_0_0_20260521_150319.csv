@@ -1,0 +1,247 @@
+﻿StudentID,Accommodation,Category,Frequency
+SYN-0001,Social stories for unfamiliar or high-risk situations,Communication,As needed
+SYN-0001,Community safety scripts and staff proximity,Behavioral,Community outings
+SYN-0001,Warning before transitions and changes in routine,Academic,During transitions
+SYN-0001,First/then boards and visual to-do lists,Behavioral,During transitions
+SYN-0001,Noise-dampening headphones when needed,Academic,Daily
+SYN-0001,Wait time for processing before repeating directions,Behavioral,Community outings
+SYN-0001,1:1 staff support as needed for safety and access,Safety,Community outings
+SYN-0001,Visual schedule with clear start/end expectations,Academic,Daily
+SYN-0001,Sensory tools and scheduled sensory breaks,Sensory,Daily
+SYN-0002,Low-tech AAC/core board or visual choice board,Sensory,As needed
+SYN-0002,Task analysis with small teachable steps,Academic,During transitions
+SYN-0002,Social stories for unfamiliar or high-risk situations,Academic,Daily
+SYN-0002,Warning before transitions and changes in routine,Sensory,Community outings
+SYN-0002,High repetition with immediate reinforcement,Academic,Community outings
+SYN-0002,Prompting and systematic prompt fading,Communication,During transitions
+SYN-0002,1:1 staff support as needed for safety and access,Academic,During transitions
+SYN-0002,Preference assessments and individualized reinforcement,Academic,During transitions
+SYN-0002,Visual schedule with clear start/end expectations,Behavioral,Daily
+SYN-0002,Wait time for processing before repeating directions,Safety,During transitions
+SYN-0003,1:1 staff support as needed for safety and access,Sensory,As needed
+SYN-0003,Preference assessments and individualized reinforcement,Behavioral,Daily
+SYN-0003,Sensory tools and scheduled sensory breaks,Sensory,Daily
+SYN-0003,Community safety scripts and staff proximity,Communication,As needed
+SYN-0003,Wait time for processing before repeating directions,Academic,As needed
+SYN-0003,Warning before transitions and changes in routine,Academic,During transitions
+SYN-0003,Noise-dampening headphones when needed,Communication,Community outings
+SYN-0004,Noise-dampening headphones when needed,Communication,During transitions
+SYN-0004,High repetition with immediate reinforcement,Academic,During transitions
+SYN-0004,1:1 staff support as needed for safety and access,Sensory,Community outings
+SYN-0004,Wait time for processing before repeating directions,Sensory,Community outings
+SYN-0004,Task analysis with small teachable steps,Communication,As needed
+SYN-0004,Community safety scripts and staff proximity,Sensory,Community outings
+SYN-0004,Preference assessments and individualized reinforcement,Communication,During transitions
+SYN-0004,Minimal distractions and structured workspace,Academic,Community outings
+SYN-0004,Prompting and systematic prompt fading,Academic,Community outings
+SYN-0004,Sensory tools and scheduled sensory breaks,Safety,As needed
+SYN-0005,High repetition with immediate reinforcement,Sensory,As needed
+SYN-0005,Preference assessments and individualized reinforcement,Sensory,During transitions
+SYN-0005,Visual schedule with clear start/end expectations,Sensory,Daily
+SYN-0005,Minimal distractions and structured workspace,Communication,Community outings
+SYN-0005,Community safety scripts and staff proximity,Communication,Daily
+SYN-0005,First/then boards and visual to-do lists,Academic,Community outings
+SYN-0005,Low-tech AAC/core board or visual choice board,Communication,As needed
+SYN-0005,Noise-dampening headphones when needed,Academic,As needed
+SYN-0005,Sensory tools and scheduled sensory breaks,Safety,Community outings
+SYN-0005,Wait time for processing before repeating directions,Academic,As needed
+SYN-0006,Task analysis with small teachable steps,Safety,Daily
+SYN-0006,Minimal distractions and structured workspace,Safety,As needed
+SYN-0006,Wait time for processing before repeating directions,Sensory,During transitions
+SYN-0006,Preference assessments and individualized reinforcement,Communication,Community outings
+SYN-0006,Social stories for unfamiliar or high-risk situations,Academic,As needed
+SYN-0006,Prompting and systematic prompt fading,Safety,During transitions
+SYN-0007,Preference assessments and individualized reinforcement,Sensory,Daily
+SYN-0007,Wait time for processing before repeating directions,Communication,During transitions
+SYN-0007,High repetition with immediate reinforcement,Sensory,As needed
+SYN-0007,Task analysis with small teachable steps,Safety,During transitions
+SYN-0007,Visual schedule with clear start/end expectations,Sensory,As needed
+SYN-0007,1:1 staff support as needed for safety and access,Academic,As needed
+SYN-0007,Warning before transitions and changes in routine,Academic,Community outings
+SYN-0007,Noise-dampening headphones when needed,Behavioral,Community outings
+SYN-0007,Minimal distractions and structured workspace,Academic,During transitions
+SYN-0008,Social stories for unfamiliar or high-risk situations,Communication,As needed
+SYN-0008,Visual schedule with clear start/end expectations,Academic,As needed
+SYN-0008,Sensory tools and scheduled sensory breaks,Behavioral,As needed
+SYN-0008,Minimal distractions and structured workspace,Sensory,Daily
+SYN-0008,High repetition with immediate reinforcement,Communication,During transitions
+SYN-0008,Wait time for processing before repeating directions,Sensory,As needed
+SYN-0008,Warning before transitions and changes in routine,Safety,Daily
+SYN-0008,First/then boards and visual to-do lists,Academic,During transitions
+SYN-0009,Social stories for unfamiliar or high-risk situations,Academic,Community outings
+SYN-0009,First/then boards and visual to-do lists,Sensory,During transitions
+SYN-0009,Noise-dampening headphones when needed,Behavioral,As needed
+SYN-0009,Sensory tools and scheduled sensory breaks,Behavioral,Community outings
+SYN-0009,Prompting and systematic prompt fading,Safety,Daily
+SYN-0009,Wait time for processing before repeating directions,Academic,As needed
+SYN-0009,Visual schedule with clear start/end expectations,Communication,As needed
+SYN-0009,Warning before transitions and changes in routine,Behavioral,During transitions
+SYN-0009,Minimal distractions and structured workspace,Behavioral,During transitions
+SYN-0010,First/then boards and visual to-do lists,Safety,Daily
+SYN-0010,High repetition with immediate reinforcement,Safety,As needed
+SYN-0010,Visual schedule with clear start/end expectations,Safety,As needed
+SYN-0010,Community safety scripts and staff proximity,Behavioral,During transitions
+SYN-0010,Task analysis with small teachable steps,Safety,Daily
+SYN-0010,Sensory tools and scheduled sensory breaks,Academic,Daily
+SYN-0010,Social stories for unfamiliar or high-risk situations,Academic,During transitions
+SYN-0010,Warning before transitions and changes in routine,Behavioral,Community outings
+SYN-0010,Preference assessments and individualized reinforcement,Safety,Daily
+SYN-0010,Noise-dampening headphones when needed,Sensory,During transitions
+SYN-0011,Noise-dampening headphones when needed,Academic,As needed
+SYN-0011,Task analysis with small teachable steps,Sensory,Community outings
+SYN-0011,Minimal distractions and structured workspace,Sensory,Community outings
+SYN-0011,Wait time for processing before repeating directions,Behavioral,During transitions
+SYN-0011,Prompting and systematic prompt fading,Safety,As needed
+SYN-0011,High repetition with immediate reinforcement,Communication,During transitions
+SYN-0011,First/then boards and visual to-do lists,Communication,Community outings
+SYN-0011,Visual schedule with clear start/end expectations,Behavioral,During transitions
+SYN-0012,Sensory tools and scheduled sensory breaks,Academic,Daily
+SYN-0012,Visual schedule with clear start/end expectations,Communication,Community outings
+SYN-0012,Preference assessments and individualized reinforcement,Safety,Community outings
+SYN-0012,Task analysis with small teachable steps,Behavioral,As needed
+SYN-0012,Noise-dampening headphones when needed,Communication,During transitions
+SYN-0012,Community safety scripts and staff proximity,Behavioral,As needed
+SYN-0012,High repetition with immediate reinforcement,Sensory,Community outings
+SYN-0012,Wait time for processing before repeating directions,Sensory,During transitions
+SYN-0012,Low-tech AAC/core board or visual choice board,Sensory,Daily
+SYN-0012,Prompting and systematic prompt fading,Academic,Community outings
+SYN-0013,Noise-dampening headphones when needed,Sensory,During transitions
+SYN-0013,Task analysis with small teachable steps,Safety,Daily
+SYN-0013,Community safety scripts and staff proximity,Academic,Community outings
+SYN-0013,Low-tech AAC/core board or visual choice board,Behavioral,During transitions
+SYN-0013,Preference assessments and individualized reinforcement,Communication,Community outings
+SYN-0013,1:1 staff support as needed for safety and access,Communication,Daily
+SYN-0013,Social stories for unfamiliar or high-risk situations,Sensory,Daily
+SYN-0013,High repetition with immediate reinforcement,Safety,As needed
+SYN-0013,Minimal distractions and structured workspace,Communication,During transitions
+SYN-0013,First/then boards and visual to-do lists,Academic,Community outings
+SYN-0014,Noise-dampening headphones when needed,Communication,During transitions
+SYN-0014,Minimal distractions and structured workspace,Safety,During transitions
+SYN-0014,Sensory tools and scheduled sensory breaks,Behavioral,As needed
+SYN-0014,High repetition with immediate reinforcement,Safety,Community outings
+SYN-0014,Low-tech AAC/core board or visual choice board,Safety,Daily
+SYN-0014,Wait time for processing before repeating directions,Academic,Daily
+SYN-0014,Visual schedule with clear start/end expectations,Behavioral,During transitions
+SYN-0014,Warning before transitions and changes in routine,Sensory,Community outings
+SYN-0014,1:1 staff support as needed for safety and access,Behavioral,As needed
+SYN-0014,Task analysis with small teachable steps,Communication,During transitions
+SYN-0015,Prompting and systematic prompt fading,Safety,Community outings
+SYN-0015,Low-tech AAC/core board or visual choice board,Safety,During transitions
+SYN-0015,Social stories for unfamiliar or high-risk situations,Sensory,Daily
+SYN-0015,High repetition with immediate reinforcement,Communication,During transitions
+SYN-0015,Community safety scripts and staff proximity,Academic,Community outings
+SYN-0015,Preference assessments and individualized reinforcement,Safety,During transitions
+SYN-0015,Sensory tools and scheduled sensory breaks,Academic,Community outings
+SYN-0016,Wait time for processing before repeating directions,Behavioral,Community outings
+SYN-0016,Minimal distractions and structured workspace,Behavioral,As needed
+SYN-0016,Community safety scripts and staff proximity,Academic,Daily
+SYN-0016,Low-tech AAC/core board or visual choice board,Behavioral,Daily
+SYN-0016,Social stories for unfamiliar or high-risk situations,Sensory,During transitions
+SYN-0016,Task analysis with small teachable steps,Sensory,As needed
+SYN-0016,1:1 staff support as needed for safety and access,Sensory,As needed
+SYN-0016,Noise-dampening headphones when needed,Sensory,Community outings
+SYN-0017,Social stories for unfamiliar or high-risk situations,Sensory,Community outings
+SYN-0017,Warning before transitions and changes in routine,Communication,As needed
+SYN-0017,Sensory tools and scheduled sensory breaks,Sensory,During transitions
+SYN-0017,Task analysis with small teachable steps,Safety,During transitions
+SYN-0017,Minimal distractions and structured workspace,Communication,Community outings
+SYN-0017,Preference assessments and individualized reinforcement,Behavioral,As needed
+SYN-0018,Sensory tools and scheduled sensory breaks,Sensory,During transitions
+SYN-0018,High repetition with immediate reinforcement,Safety,During transitions
+SYN-0018,Task analysis with small teachable steps,Communication,Daily
+SYN-0018,Community safety scripts and staff proximity,Safety,Community outings
+SYN-0018,Social stories for unfamiliar or high-risk situations,Sensory,During transitions
+SYN-0018,Minimal distractions and structured workspace,Behavioral,During transitions
+SYN-0018,Noise-dampening headphones when needed,Academic,During transitions
+SYN-0018,Preference assessments and individualized reinforcement,Academic,During transitions
+SYN-0019,Wait time for processing before repeating directions,Communication,As needed
+SYN-0019,High repetition with immediate reinforcement,Academic,As needed
+SYN-0019,Social stories for unfamiliar or high-risk situations,Behavioral,Daily
+SYN-0019,Noise-dampening headphones when needed,Safety,As needed
+SYN-0019,Task analysis with small teachable steps,Behavioral,Daily
+SYN-0019,First/then boards and visual to-do lists,Academic,Community outings
+SYN-0019,Sensory tools and scheduled sensory breaks,Communication,Community outings
+SYN-0019,Community safety scripts and staff proximity,Academic,As needed
+SYN-0019,Minimal distractions and structured workspace,Academic,As needed
+SYN-0020,Wait time for processing before repeating directions,Academic,Daily
+SYN-0020,Noise-dampening headphones when needed,Safety,As needed
+SYN-0020,Community safety scripts and staff proximity,Safety,Daily
+SYN-0020,First/then boards and visual to-do lists,Behavioral,Community outings
+SYN-0020,Task analysis with small teachable steps,Behavioral,Daily
+SYN-0020,High repetition with immediate reinforcement,Sensory,Community outings
+SYN-0020,Preference assessments and individualized reinforcement,Behavioral,During transitions
+SYN-0020,Low-tech AAC/core board or visual choice board,Academic,Daily
+SYN-0020,Sensory tools and scheduled sensory breaks,Communication,Daily
+SYN-0021,High repetition with immediate reinforcement,Communication,As needed
+SYN-0021,Noise-dampening headphones when needed,Academic,During transitions
+SYN-0021,Wait time for processing before repeating directions,Behavioral,Community outings
+SYN-0021,Sensory tools and scheduled sensory breaks,Communication,As needed
+SYN-0021,Social stories for unfamiliar or high-risk situations,Academic,During transitions
+SYN-0021,Community safety scripts and staff proximity,Communication,As needed
+SYN-0021,Warning before transitions and changes in routine,Behavioral,Community outings
+SYN-0021,Low-tech AAC/core board or visual choice board,Sensory,During transitions
+SYN-0022,Prompting and systematic prompt fading,Communication,As needed
+SYN-0022,Wait time for processing before repeating directions,Academic,During transitions
+SYN-0022,Visual schedule with clear start/end expectations,Sensory,As needed
+SYN-0022,Warning before transitions and changes in routine,Sensory,During transitions
+SYN-0022,Social stories for unfamiliar or high-risk situations,Communication,During transitions
+SYN-0022,Noise-dampening headphones when needed,Safety,Daily
+SYN-0023,Wait time for processing before repeating directions,Behavioral,Community outings
+SYN-0023,Preference assessments and individualized reinforcement,Safety,During transitions
+SYN-0023,Social stories for unfamiliar or high-risk situations,Academic,During transitions
+SYN-0023,Task analysis with small teachable steps,Communication,As needed
+SYN-0023,1:1 staff support as needed for safety and access,Behavioral,As needed
+SYN-0023,Visual schedule with clear start/end expectations,Sensory,As needed
+SYN-0023,Noise-dampening headphones when needed,Sensory,During transitions
+SYN-0023,High repetition with immediate reinforcement,Sensory,Community outings
+SYN-0024,Minimal distractions and structured workspace,Communication,Daily
+SYN-0024,Wait time for processing before repeating directions,Safety,Daily
+SYN-0024,Task analysis with small teachable steps,Academic,As needed
+SYN-0024,First/then boards and visual to-do lists,Safety,As needed
+SYN-0024,Community safety scripts and staff proximity,Behavioral,During transitions
+SYN-0024,Low-tech AAC/core board or visual choice board,Safety,Community outings
+SYN-0024,Visual schedule with clear start/end expectations,Academic,As needed
+SYN-0024,Noise-dampening headphones when needed,Safety,Community outings
+SYN-0024,High repetition with immediate reinforcement,Academic,Community outings
+SYN-0024,Preference assessments and individualized reinforcement,Academic,Community outings
+SYN-0025,Sensory tools and scheduled sensory breaks,Communication,Daily
+SYN-0025,Prompting and systematic prompt fading,Sensory,During transitions
+SYN-0025,Noise-dampening headphones when needed,Academic,As needed
+SYN-0025,Low-tech AAC/core board or visual choice board,Safety,Daily
+SYN-0025,1:1 staff support as needed for safety and access,Academic,Community outings
+SYN-0025,First/then boards and visual to-do lists,Communication,Daily
+SYN-0025,Minimal distractions and structured workspace,Safety,Daily
+SYN-0026,First/then boards and visual to-do lists,Behavioral,Community outings
+SYN-0026,Noise-dampening headphones when needed,Communication,Community outings
+SYN-0026,1:1 staff support as needed for safety and access,Sensory,Community outings
+SYN-0026,High repetition with immediate reinforcement,Sensory,Daily
+SYN-0026,Prompting and systematic prompt fading,Safety,As needed
+SYN-0026,Warning before transitions and changes in routine,Communication,Daily
+SYN-0027,Sensory tools and scheduled sensory breaks,Communication,Community outings
+SYN-0027,Prompting and systematic prompt fading,Safety,Community outings
+SYN-0027,First/then boards and visual to-do lists,Safety,Community outings
+SYN-0027,Warning before transitions and changes in routine,Behavioral,As needed
+SYN-0027,Task analysis with small teachable steps,Sensory,During transitions
+SYN-0027,1:1 staff support as needed for safety and access,Behavioral,During transitions
+SYN-0027,Low-tech AAC/core board or visual choice board,Behavioral,Daily
+SYN-0028,Minimal distractions and structured workspace,Behavioral,Daily
+SYN-0028,Wait time for processing before repeating directions,Academic,Daily
+SYN-0028,Prompting and systematic prompt fading,Sensory,Daily
+SYN-0028,Low-tech AAC/core board or visual choice board,Behavioral,Daily
+SYN-0028,1:1 staff support as needed for safety and access,Sensory,Community outings
+SYN-0028,Task analysis with small teachable steps,Behavioral,As needed
+SYN-0029,Warning before transitions and changes in routine,Safety,During transitions
+SYN-0029,Sensory tools and scheduled sensory breaks,Behavioral,During transitions
+SYN-0029,High repetition with immediate reinforcement,Behavioral,As needed
+SYN-0029,Task analysis with small teachable steps,Sensory,During transitions
+SYN-0029,Low-tech AAC/core board or visual choice board,Communication,Daily
+SYN-0029,Preference assessments and individualized reinforcement,Safety,As needed
+SYN-0030,Sensory tools and scheduled sensory breaks,Sensory,Community outings
+SYN-0030,Noise-dampening headphones when needed,Behavioral,During transitions
+SYN-0030,1:1 staff support as needed for safety and access,Sensory,As needed
+SYN-0030,Preference assessments and individualized reinforcement,Safety,Community outings
+SYN-0030,Wait time for processing before repeating directions,Behavioral,As needed
+SYN-0030,Prompting and systematic prompt fading,Communication,As needed
+SYN-0030,First/then boards and visual to-do lists,Sensory,Daily
+SYN-0030,Social stories for unfamiliar or high-risk situations,Safety,Community outings
+SYN-0030,Community safety scripts and staff proximity,Sensory,As needed
