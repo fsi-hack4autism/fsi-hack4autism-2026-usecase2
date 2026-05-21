@@ -9,7 +9,7 @@ Chaitali Ladikkar
 - Charles
 - Erin
 
-# UI Mock Up
+# UI Screen 
 - Tanuja
 
 # Synthentic data generation
