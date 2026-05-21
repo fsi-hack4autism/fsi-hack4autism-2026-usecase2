@@ -10,7 +10,7 @@ Chaitali Ladikkar
 - Erin
 
 # UI Mock Up
-- Hanuja
+- Tanuja
 
 # Synthentic data generation
 - Nihal
