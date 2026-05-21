@@ -70,7 +70,7 @@ Every assignment below feeds one or both of these flows.
 
 ---
 
-### Hanuja — UI
+### Tanuja — UI
 
 **Goal:** Build the 5 screens users actually interact with. Fastest path: lightweight HTML/CSS or a simple React app wired to the real backend.
 

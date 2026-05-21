@@ -35,6 +35,40 @@
     link.addEventListener('click', () => showView(link.dataset.view));
   });
 
+  const pathCards = document.querySelectorAll('[data-path-card]');
+  const pathPreviewTitle = document.getElementById('pathPreviewTitle');
+  const pathPreviewText = document.getElementById('pathPreviewText');
+  const pathPreviewSteps = document.getElementById('pathPreviewSteps');
+  const pathContent = {
+    new: {
+      title: 'New build workspace',
+      text: 'Start with document management. The app extracts student strengths, current needs, goals, services, and source citations before advocacy and meeting prep.',
+      steps: ['Document Management', 'IEP Advocate', 'Meeting Prep']
+    },
+    existing: {
+      title: 'Existing IEP comparison',
+      text: 'Start with IEP Advocate. The app compares prior and draft IEPs, flags reductions and missing goals, then prepares meeting questions from cited evidence.',
+      steps: ['IEP Advocate', 'Meeting Prep', 'Document Management']
+    }
+  };
+
+  function updatePathPreview(path) {
+    const content = pathContent[path];
+    if (!content || !pathPreviewTitle || !pathPreviewText || !pathPreviewSteps) return;
+    pathPreviewTitle.textContent = content.title;
+    pathPreviewText.textContent = content.text;
+    pathPreviewSteps.innerHTML = content.steps.map((step, index) => (
+      `<span class="${index === 0 ? 'active' : ''}">${step}</span>`
+    )).join('');
+  }
+
+  pathCards.forEach(card => {
+    card.addEventListener('click', event => {
+      if (event.target.closest('[data-goto]')) return;
+      updatePathPreview(card.dataset.pathCard);
+    });
+  });
+
   const dropzone = document.getElementById('dropzone');
   const fileInput = document.getElementById('fileInput');
   const chooseFiles = document.getElementById('chooseFiles');
@@ -50,7 +84,7 @@
     let progress = 0;
     uploadError.hidden = true;
     progressWrap.hidden = false;
-    progressText.textContent = `Processing ${count} PDF${count === 1 ? '' : 's'}`;
+    progressText.textContent = `Processing ${count} document${count === 1 ? '' : 's'}`;
     pipelineStatus.textContent = 'Extracting text, tables, goals, and service minutes';
 
     const timer = setInterval(() => {
@@ -95,6 +129,28 @@
 
   const sourcePopover = document.getElementById('sourcePopover');
   const sourceText = document.getElementById('sourceText');
+  const sourceLink = document.getElementById('sourceLink');
+  const closeSourcePopover = document.getElementById('closeSourcePopover');
+
+  const sourceDocuments = [
+    { pattern: /Draft IEP|Draft/i, file: 'AK_IEP_Draft_2025-2026_Redacted.pdf' },
+    { pattern: /IEP 2024/i, file: 'AK_IEP_2024_Redacted.pdf' },
+    { pattern: /IEP 2023|IEP 2025|Eval|Evaluation|Teacher|RBT|Progress/i, file: 'MZ_IEP_6_7_2024_Redacted.pdf' }
+  ];
+
+  function sourceHref(source) {
+    const pageMatch = source.match(/p\.(\d+)/i);
+    const page = pageMatch ? pageMatch[1] : '1';
+    const doc = sourceDocuments.find(item => item.pattern.test(source));
+    const file = doc ? doc.file : 'MZ_IEP_6_7_2024_Redacted.pdf';
+    return `https://github.com/fsi-hack4autism/fsi-hack4autism-2026-usecase2/blob/main/Sample_IEP_docs/${file}#page=${page}`;
+  }
+
+  if (closeSourcePopover) {
+    closeSourcePopover.addEventListener('click', () => {
+      sourcePopover.hidden = true;
+    });
+  }
 
   document.addEventListener('click', event => {
     const chip = event.target.closest('.source-chip');
@@ -104,7 +160,9 @@
     }
 
     event.stopPropagation();
-    sourceText.textContent = chip.dataset.source || chip.textContent.trim();
+    const source = chip.dataset.source || chip.textContent.trim();
+    sourceText.textContent = source;
+    if (sourceLink) sourceLink.href = sourceHref(source);
     const rect = chip.getBoundingClientRect();
     sourcePopover.style.left = `${Math.min(rect.left, window.innerWidth - 340)}px`;
     sourcePopover.style.top = `${rect.bottom + 8}px`;
@@ -116,7 +174,7 @@
   const chatThread = document.getElementById('chatThread');
   const citationPanel = document.getElementById('citationPanel');
 
-  const responseText = 'I would raise the service reduction first. The draft reduces speech therapy from 60 minutes weekly to 30 minutes weekly, but the uploaded documents do not show mastery data supporting that change.';
+  const responseText = 'I would raise the direct-instruction reduction first. The draft moves Functional Life Skills/Vocational instruction from 1,800 minutes weekly to 360 minutes weekly. Then ask about direct OT being removed and speech therapy dropping from 60 to 30 minutes weekly.';
 
   function addMessage(role, text) {
     const message = document.createElement('article');
@@ -133,17 +191,18 @@
         <span class="count-pill">Updated</span>
       </div>
       <div class="citation-card">
-        <strong>Speech minutes changed</strong>
-        <span>IEP 2024 · p.12 · 60 min/week</span>
-        <span>Draft IEP 2026 · p.11 · 30 min/week</span>
+        <strong>Direct instruction changed</strong>
+        <span>IEP 2024 · p.12 · 1,800 min/week</span>
+        <span>Draft IEP 2026 · p.11 · 360 min/week</span>
       </div>
       <div class="citation-card">
-        <strong>No mastery statement found</strong>
-        <span>Progress Report 2026 · p.3</span>
+        <strong>Related services reduced</strong>
+        <span>Speech: 60 to 30 min/week</span>
+        <span>Direct OT: 30 to 0 min/week</span>
       </div>
       <div class="citation-card">
         <strong>Suggested meeting question</strong>
-        <span>Generated from cited service data</span>
+        <span>Ask whether the 80% reduction is a typo or supported by data.</span>
       </div>
     `;
   }
@@ -175,4 +234,57 @@
       filter.classList.add('active');
     });
   });
+
+  const summaryYearFrom = document.getElementById('summaryYearFrom');
+  const summaryYearTo = document.getElementById('summaryYearTo');
+  const generateYearSummary = document.getElementById('generateYearSummary');
+  const yearSummaryOutput = document.getElementById('yearSummaryOutput');
+  const compareYearABadge = document.getElementById('compareYearABadge');
+  const compareYearBBadge = document.getElementById('compareYearBBadge');
+
+  function comparisonSummary(fromYear, toYear) {
+    if (fromYear === toYear) {
+      return `Both sides are set to ${fromYear}. Choose two different IEP years to compare goals, services, concerns, and supports.`;
+    }
+
+    const from = Number(fromYear);
+    const to = Number(toYear);
+    const direction = from < to ? 'forward' : 'backward';
+
+    if ((fromYear === '2024' && toYear === '2026') || (fromYear === '2026' && toYear === '2024')) {
+      return `${fromYear} → ${toYear}: direct instruction drops from 1,800 to 360 min/week, direct OT is removed, and speech services are cut from 60 to 30 min/week.`;
+    }
+
+    if (fromYear === '2023' || toYear === '2023') {
+      return `${fromYear} → ${toYear}: check whether earlier transition, community safety, and independence concerns carry into measurable goals and services.`;
+    }
+
+    if (fromYear === '2025' || toYear === '2025') {
+      return `${fromYear} → ${toYear}: review whether evaluation findings and boundary-intervention data became goals, accommodations, or service minutes.`;
+    }
+
+    return `${fromYear} → ${toYear}: compare ${direction} across goals, present levels, services, accommodations, parent concerns, and behavior data.`;
+  }
+
+  function summaryMarkup(summary) {
+    const separator = summary.indexOf(':');
+    if (separator === -1) return summary;
+    const prefix = summary.slice(0, separator + 1);
+    const detail = summary.slice(separator + 1);
+    return `<strong>${prefix}</strong>${detail}`;
+  }
+
+  function updateYearSummary() {
+    if (!yearSummaryOutput || !summaryYearFrom || !summaryYearTo) return;
+    yearSummaryOutput.innerHTML = summaryMarkup(comparisonSummary(summaryYearFrom.value, summaryYearTo.value));
+    if (compareYearABadge) compareYearABadge.textContent = summaryYearFrom.value;
+    if (compareYearBBadge) compareYearBBadge.textContent = summaryYearTo.value;
+  }
+
+  if (summaryYearFrom) summaryYearFrom.addEventListener('change', updateYearSummary);
+  if (summaryYearTo) summaryYearTo.addEventListener('change', updateYearSummary);
+
+  if (generateYearSummary) {
+    generateYearSummary.addEventListener('click', updateYearSummary);
+  }
 })();

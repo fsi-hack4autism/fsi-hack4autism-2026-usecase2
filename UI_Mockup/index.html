@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#" data-goto="upload" aria-label="IEP Navigator home">
+    <a class="brand" href="#" data-goto="home" aria-label="IEP Navigator home">
       <span class="brand-mark">IN</span>
       <span>
         <strong>IEP Navigator</strong>
@@ -17,24 +17,126 @@
     </a>
 
     <nav class="nav-tabs" aria-label="Primary navigation">
-      <button class="nav-link active" data-view="upload">Upload</button>
-      <button class="nav-link" data-view="profile">Profile</button>
-      <button class="nav-link" data-view="chat">Chat</button>
-      <button class="nav-link" data-view="comparison">Compare</button>
-      <button class="nav-link" data-view="script">Meeting Script</button>
+      <button class="nav-link active" data-view="home">Overview</button>
+      <button class="nav-link" data-view="upload">Document Management</button>
+      <button class="nav-link" data-view="comparison">IEP Advocate</button>
+      <button class="nav-link" data-view="script">Meeting Prep</button>
     </nav>
 
-    <div class="student-pill">
-      <span class="student-avatar">MT</span>
-      <span>
-        <strong>Max Thompson</strong>
-        <small>4th Grade · Pleasanton USD</small>
-      </span>
-    </div>
   </header>
 
   <main>
-    <section class="view active" id="view-upload">
+    <section class="view active" id="view-home">
+      <div class="home-hero">
+        <div class="home-brand-card">
+          <div>
+            <p class="eyebrow">IEP Navigator</p>
+            <h1>Choose your IEP workflow</h1>
+            <p class="lead">Start fresh or compare an existing draft. Everything stays inside one dynamic workspace.</p>
+          </div>
+          <div class="home-snapshot">
+            <span><strong>5</strong> AI agents</span>
+            <span><strong>6</strong> journey phases</span>
+            <span><strong>100%</strong> cited insights</span>
+          </div>
+        </div>
+
+        <div class="trust-strip">
+          <div>
+            <strong>Private & secure</strong>
+            <span>Parent-controlled records</span>
+          </div>
+          <div>
+            <strong>Evidence-based</strong>
+            <span>Every insight links to a source</span>
+          </div>
+          <div>
+            <strong>Meeting-ready</strong>
+            <span>Scripts, flags, and next steps</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="entry-grid">
+        <article class="entry-card entry-new" data-path-card="new" tabindex="0">
+          <h2>First-time IEP review</h2>
+          <p>Start from documents and let the workspace build the profile, needs summary, citations, and meeting prep.</p>
+          <ul>
+            <li>Upload IEPs, evaluations, notes, and reports</li>
+            <li>Extract strengths, needs, goals, and services</li>
+            <li>Create a parent-ready profile with citations</li>
+          </ul>
+          <button class="primary-btn" type="button" data-goto="upload">Start your journey</button>
+        </article>
+
+        <article class="entry-card entry-existing" data-path-card="existing" tabindex="0">
+          <h2>Returning parent comparison</h2>
+          <p>Bring last year’s plan and the new draft together to spot repeated goals, service changes, and missing supports.</p>
+          <ul>
+            <li>Compare IEP years side by side</li>
+            <li>Find red flags by category</li>
+            <li>Generate a plain-language parent summary</li>
+          </ul>
+          <button class="primary-btn" type="button" data-goto="comparison">Compare existing IEPs</button>
+        </article>
+      </div>
+
+      <section class="path-preview" id="pathPreview">
+        <div>
+          <p class="eyebrow">Workspace flow</p>
+          <h2 id="pathPreviewTitle">New build workspace</h2>
+          <p id="pathPreviewText">Upload documents first. The app will extract student strengths, current needs, goals, services, and source citations before moving into profile review.</p>
+        </div>
+        <div class="path-steps" id="pathPreviewSteps">
+          <span class="active">Document Management</span>
+          <span>IEP Advocate</span>
+          <span>Meeting Prep</span>
+        </div>
+      </section>
+
+      <section class="roadmap-panel">
+        <div class="roadmap-header">
+          <p class="eyebrow">Roadmap</p>
+          <h2>What the workspace builds for you</h2>
+        </div>
+        <div class="agent-grid">
+          <article>
+            <span>Document</span>
+            <strong>Organize records</strong>
+            <p>Upload, classify, and cite school documents.</p>
+          </article>
+          <article>
+            <span>Data</span>
+            <strong>Track patterns</strong>
+            <p>Find trends across goals, services, and notes.</p>
+          </article>
+          <article>
+            <span>IEP</span>
+            <strong>Prepare advocacy</strong>
+            <p>Explain changes and create meeting questions.</p>
+          </article>
+          <article>
+            <span>Legal</span>
+            <strong>Check compliance</strong>
+            <p>Surface IDEA, 504, and process concerns.</p>
+          </article>
+          <article>
+            <span>Community</span>
+            <strong>Connect resources</strong>
+            <p>Point families toward trusted supports.</p>
+          </article>
+        </div>
+
+        <div class="phase-row">
+          <button type="button" data-goto="home"><strong>1</strong><span>Overview</span></button>
+          <button type="button" data-goto="upload"><strong>2</strong><span>Document Management</span></button>
+          <button type="button" data-goto="comparison"><strong>3</strong><span>IEP Advocate</span></button>
+          <button type="button" data-goto="script"><strong>4</strong><span>Meeting Prep</span></button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="view-upload">
       <div class="hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Screen 0 · Document intake</p>
@@ -66,15 +168,15 @@
               <p class="eyebrow">Upload queue</p>
               <h2>Add documents</h2>
             </div>
-            <span class="count-pill">PDF only</span>
+            <span class="count-pill">Any document</span>
           </div>
 
           <div class="dropzone" id="dropzone">
-            <input id="fileInput" type="file" accept=".pdf" multiple />
-            <div class="drop-icon">PDF</div>
-            <h2>Drop PDF files here</h2>
-            <p>Use last year’s IEP, the new draft, evaluations, and supporting notes.</p>
-            <button class="primary-btn" type="button" id="chooseFiles">Choose PDFs</button>
+            <input id="fileInput" type="file" accept=".pdf,.doc,.docx,.txt,.rtf,.jpg,.jpeg,.png,.xlsx,.xls,.csv" multiple />
+            <div class="drop-icon">DOC</div>
+            <h2>Drop documents here</h2>
+            <p>Use IEPs, drafts, evaluations, supporting notes, images, spreadsheets, or text files.</p>
+            <button class="primary-btn" type="button" id="chooseFiles">Choose files</button>
           </div>
 
           <div class="pipeline">
@@ -138,18 +240,22 @@
     <section class="view" id="view-profile">
       <div class="section-header">
         <p class="eyebrow">Screen 1 · Student profile</p>
-        <h1>Max’s strengths-first profile</h1>
+        <h1>AK’s strengths-first profile</h1>
         <p class="lead">A durable profile parents can bring from meeting to meeting, with source chips for every important claim.</p>
       </div>
 
       <div class="profile-grid">
         <article class="strength-card">
           <div class="card-label">Strengths-first summary</div>
-          <h2>Curious visual problem-solver who learns best through structure, movement breaks, and concrete examples.</h2>
-          <p>Max shows strong pattern recognition, high interest in maps and transit systems, and improved written output when expectations are chunked before independent work.</p>
+          <h2>Transition-focused learner who benefits from explicit routines, visual supports, and consistent safety boundaries.</h2>
+          <p>AK’s IEP shows meaningful strengths in structured routines, community participation, and vocational exploration. The strongest advocacy need is making sure those strengths are protected while service minutes and supports change.</p>
+          <div class="improvement-summary">
+            <strong>Most needs improvement</strong>
+            <span>Special education instruction minutes, direct OT, speech-language services, measurable ADL goals, and community-boundary supports need the clearest team explanation.</span>
+          </div>
           <div class="source-row">
-            <button class="source-chip" data-source="Psychoeducational Evaluation · p.6">Eval 2025 · p.6</button>
-            <button class="source-chip" data-source="Teacher Progress Notes · p.2">Teacher Notes · p.2</button>
+            <button class="source-chip" data-source="IEP 2024 · p.12">IEP 2024 · p.12</button>
+            <button class="source-chip" data-source="Draft IEP 2026 · p.7">Draft IEP · p.7</button>
           </div>
         </article>
 
@@ -159,20 +265,36 @@
             <span class="count-pill">4 active</span>
           </div>
           <ul class="needs-list">
-            <li>
-              <strong>Social engagement during unstructured time</strong>
-              <span>Recess participation drops when preferred peer is absent.</span>
-              <button class="source-chip" data-source="IEP 2023 · p.4, IEP 2024 · p.4, Draft IEP 2026 · p.5">3-year pattern</button>
+            <li class="priority-need">
+              <div class="need-topline">
+                <strong>Direct special education instruction</strong>
+                <span class="need-badge">Priority</span>
+              </div>
+              <span>Draft reduces Functional Life Skills/Vocational instruction by roughly 80% without an obvious data rationale.</span>
+              <div class="mini-compare">
+                <span>2024: 1,800 min/week</span>
+                <span>Draft: 360 min/week</span>
+              </div>
+              <button class="source-chip" data-source="IEP 2024 · p.12, Draft IEP 2026 · p.11">Service comparison</button>
             </li>
             <li>
-              <strong>Reading fluency and stamina</strong>
-              <span>Same baseline appears across multiple goals without clear progress narrative.</span>
-              <button class="source-chip" data-source="IEP 2024 · p.8, Draft IEP 2026 · p.9">Goal source</button>
+              <strong>OT and praxis support</strong>
+              <span>Direct OT is removed and the praxis/motor-planning goal area disappears from the draft.</span>
+              <button class="source-chip" data-source="IEP 2024 · p.10, Draft IEP 2026 · p.10">Goal and service change</button>
             </li>
             <li>
-              <strong>Sensory regulation before transitions</strong>
-              <span>RBT logs show more success when transition warnings are paired with visual schedules.</span>
-              <button class="source-chip" data-source="RBT Logs March 2026 · p.3">RBT evidence</button>
+              <strong>Speech-language services</strong>
+              <span>Direct speech is cut in half while social-pragmatic and boundary needs remain active safety concerns.</span>
+              <div class="mini-compare">
+                <span>2024 service: 60 min/week</span>
+                <span>2026 draft: 30 min/week</span>
+              </div>
+              <button class="source-chip" data-source="IEP 2024 · p.12, Draft IEP 2026 · p.11">Service comparison</button>
+            </li>
+            <li>
+              <strong>Administrative discrepancy</strong>
+              <span>Neurological Impairment appears unchecked in the profile while the narrative still names it as the primary disability.</span>
+              <button class="source-chip" data-source="Draft IEP 2026 · p.6, Draft IEP 2026 · p.7">Profile check</button>
             </li>
           </ul>
         </article>
@@ -186,22 +308,26 @@
         <div class="timeline">
           <div class="timeline-item">
             <span>2023</span>
-            <strong>Initial IEP</strong>
+            <strong>Transition profile grows</strong>
+            <p>Community, vocational, and functional-life needs become central to the plan.</p>
             <button class="source-chip" data-source="IEP 2023 · p.1">Source</button>
           </div>
           <div class="timeline-item">
             <span>2024</span>
-            <strong>Reading goal repeated</strong>
-            <button class="source-chip" data-source="IEP 2024 · p.8">Source</button>
+            <strong>Prior services documented</strong>
+            <p>Direct instruction is listed at 1,800 min/week with speech and direct OT services.</p>
+            <button class="source-chip" data-source="IEP 2024 · p.12">Source</button>
           </div>
           <div class="timeline-item">
             <span>2025</span>
-            <strong>Evaluation confirms visual strengths</strong>
-            <button class="source-chip" data-source="Psychoeducational Evaluation · p.6">Source</button>
+            <strong>Boundary intervention noted</strong>
+            <p>Draft references an 8-10 week clinical boundary intervention and new safety protocols.</p>
+            <button class="source-chip" data-source="Draft IEP 2026 · p.7">Source</button>
           </div>
           <div class="timeline-item flag">
             <span>2026</span>
-            <strong>Draft reduces speech minutes</strong>
+            <strong>Draft reduces services</strong>
+            <p>SPED minutes, speech minutes, and direct OT are all reduced or removed.</p>
             <button class="source-chip" data-source="Draft IEP 2026 · p.11">Source</button>
           </div>
         </div>
@@ -219,14 +345,14 @@
           <div class="prompt-chips">
             <button data-prompt="What changed between last year's IEP and the new draft?">What changed?</button>
             <button data-prompt="Which parent concerns have not been addressed?">Unaddressed concerns</button>
-            <button data-prompt="Draft three questions I can ask about speech services.">Speech questions</button>
-            <button data-prompt="Summarize Max's strengths for the meeting opening.">Strengths summary</button>
+            <button data-prompt="Draft three questions I can ask about speech and OT reductions.">Service questions</button>
+            <button data-prompt="Summarize AK's strengths for the meeting opening.">Strengths summary</button>
           </div>
 
           <div class="chat-thread" id="chatThread">
             <article class="message assistant">
               <span>Assistant</span>
-              <p>I reviewed Max’s uploaded documents. Ask about changes, missing goals, service reductions, accommodations, or evidence to bring into the meeting.</p>
+              <p>I reviewed AK’s prior IEP and the new draft. Ask about service reductions, missing goal areas, disability-profile discrepancies, safety protocols, or evidence to bring into the meeting.</p>
             </article>
             <article class="message user">
               <span>Parent</span>
@@ -234,7 +360,7 @@
             </article>
             <article class="message assistant">
               <span>Assistant</span>
-              <p>Start with the speech service reduction, then the repeated reading fluency goal, then the missing recess social engagement goal. Each has a multi-document citation trail.</p>
+              <p>Start with the 1,800 to 360 min/week direct-instruction reduction, then direct OT being removed, then the 50% speech reduction. Each should be tied to specific evaluation or progress data.</p>
             </article>
           </div>
 
@@ -250,19 +376,19 @@
             <span class="count-pill">3 shown</span>
           </div>
           <div class="citation-card">
-            <strong>Speech therapy reduced</strong>
+            <strong>Direct instruction reduced</strong>
+            <span>IEP 2024 · p.12 · 1,800 min/week</span>
+            <span>Draft IEP 2026 · p.11 · 360 min/week</span>
+          </div>
+          <div class="citation-card">
+            <strong>Direct OT eliminated</strong>
             <span>IEP 2024 · p.12</span>
             <span>Draft IEP 2026 · p.11</span>
           </div>
           <div class="citation-card">
-            <strong>Reading goal repeated</strong>
-            <span>IEP 2023 · p.8</span>
-            <span>IEP 2024 · p.8</span>
-          </div>
-          <div class="citation-card">
-            <strong>Parent recess concern</strong>
-            <span>IEP 2023 · p.4</span>
-            <span>Draft IEP 2026 · p.5</span>
+            <strong>Boundary safety details added</strong>
+            <span>Draft IEP 2026 · p.7</span>
+            <span>Draft IEP 2026 · p.13</span>
           </div>
         </aside>
       </div>
@@ -271,49 +397,86 @@
     <section class="view" id="view-comparison">
       <div class="section-header compact">
         <p class="eyebrow">Screen 3 · IEP comparison</p>
-        <h1>Year-over-year split screen with inline red flags.</h1>
+        <h1>Compare IEP years and spot red flags.</h1>
+      </div>
+
+      <div class="past-summary-card">
+        <div class="summary-copy">
+          <p class="eyebrow">Compare past years</p>
+          <h2>Parent summary</h2>
+          <p>Select two IEP years to summarize goal changes, repeated baselines, service shifts, and missing supports.</p>
+        </div>
+        <div class="year-summary-controls">
+          <label>
+            From IEP year
+            <select id="summaryYearFrom">
+              <option value="2023">2023</option>
+              <option value="2024" selected>2024</option>
+              <option value="2025">2025</option>
+            </select>
+          </label>
+          <div class="year-flow-arrow" aria-hidden="true">→</div>
+          <label>
+            To IEP year
+            <select id="summaryYearTo">
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026" selected>2026 · Draft</option>
+            </select>
+          </label>
+          <button class="primary-btn" type="button" id="generateYearSummary">Generate summary</button>
+          <div class="year-summary-output" id="yearSummaryOutput">
+            <strong>2024 → 2026:</strong> direct instruction drops from 1,800 to 360 min/week, direct OT is removed, and speech services are cut from 60 to 30 min/week.
+          </div>
+        </div>
       </div>
 
       <div class="comparison-layout">
         <div class="comparison-columns">
           <article class="iep-column">
             <div class="column-head">
-              <h2>IEP Year A · 2024</h2>
+              <div class="year-title">
+                <span>IEP Year A</span>
+                <strong id="compareYearABadge">2024</strong>
+              </div>
               <span>Final signed plan</span>
             </div>
             <div class="iep-section">
               <h3>Goals</h3>
-              <p>Reading fluency baseline: <mark>62 words per minute</mark>. Annual target: 92 words per minute with 80% accuracy.</p>
+              <p>Functional Life Skills/Vocational direct instruction: <mark>1,800 minutes weekly</mark> (30 hours/week).</p>
             </div>
             <div class="iep-section">
-              <h3>Services</h3>
-              <p>Speech-language therapy: <mark>60 minutes weekly</mark>. Occupational therapy consult: 20 minutes monthly.</p>
+              <h3>Related services</h3>
+              <p>Speech-language therapy: <mark>60 minutes weekly</mark>. Direct OT: <mark>30 minutes weekly</mark>. OT consult: monthly.</p>
             </div>
             <div class="iep-section">
-              <h3>Parent concerns</h3>
-              <p>Parent reports limited social engagement during recess and difficulty initiating peer play.</p>
+              <h3>Goal areas</h3>
+              <p>Community shopping, vocational exploration, expressive communication, and praxis/motor planning are active goal areas.</p>
             </div>
           </article>
 
           <article class="iep-column">
             <div class="column-head">
-              <h2>IEP Year B · Draft 2026</h2>
+              <div class="year-title">
+                <span>IEP Year B</span>
+                <strong id="compareYearBBadge">2026</strong>
+              </div>
               <span>Uploaded draft</span>
             </div>
             <div class="iep-section flagged">
               <h3>Goals</h3>
-              <p>Reading fluency baseline: <mark>62 words per minute</mark>. Annual target changed to 82 words per minute.</p>
-              <div class="inline-flag">Repeated baseline with lowered target</div>
+              <p>Functional Life Skills/Vocational direct instruction: <mark>360 minutes weekly</mark> (6 hours/week).</p>
+              <div class="inline-flag">80% reduction needs immediate clarification</div>
             </div>
             <div class="iep-section flagged">
-              <h3>Services</h3>
-              <p>Speech-language therapy: <mark>30 minutes weekly</mark>. No mastery evidence attached.</p>
-              <div class="inline-flag">Service reduction without documented mastery</div>
+              <h3>Related services</h3>
+              <p>Speech-language therapy: <mark>30 minutes weekly</mark>. Direct OT: <mark>0 minutes weekly</mark>; consult-only OT increases to 30 min/week.</p>
+              <div class="inline-flag">Speech cut 50%; direct OT eliminated</div>
             </div>
             <div class="iep-section flagged">
-              <h3>Parent concerns</h3>
-              <p>Recess concern listed in notes but not represented in goals, accommodations, or services.</p>
-              <div class="inline-flag">Concern not translated into support</div>
+              <h3>Behavior and safety</h3>
+              <p>Draft adds restroom navigation protocol, arms-reach community supervision, and an 8-10 week boundary intervention reference.</p>
+              <div class="inline-flag">Safety concern needs goal/service support</div>
             </div>
           </article>
         </div>
@@ -323,15 +486,15 @@
             <h2>Flags by category</h2>
             <span class="count-pill danger">7</span>
           </div>
-          <button class="flag-filter active">Goals <strong>2</strong></button>
-          <button class="flag-filter">Present Levels <strong>1</strong></button>
+          <button class="flag-filter active">Services <strong>3</strong></button>
+          <button class="flag-filter">Goals <strong>2</strong></button>
+          <button class="flag-filter">Safety <strong>2</strong></button>
+          <button class="flag-filter">Eligibility <strong>1</strong></button>
+          <button class="flag-filter">Measurement <strong>1</strong></button>
           <button class="flag-filter">Accommodations <strong>1</strong></button>
-          <button class="flag-filter">Services <strong>1</strong></button>
-          <button class="flag-filter">Parent Concerns <strong>1</strong></button>
-          <button class="flag-filter">Behavioral Data <strong>1</strong></button>
           <div class="flag-summary">
             <strong>Highest priority</strong>
-            <p>Ask the team to explain the speech service reduction and point to the data used to support it.</p>
+            <p>Ask whether the 1,800 to 360 min/week service reduction is a clerical error. If not, request the data used to justify it.</p>
           </div>
         </aside>
       </div>
@@ -347,44 +510,48 @@
         <section class="script-section">
           <h2>Questions to Ask</h2>
           <article>
-            <strong>Can you show the data supporting the speech reduction from 60 minutes to 30 minutes per week?</strong>
+            <strong>Is the reduction from 1,800 to 360 minutes/week of direct special education instruction a typo or an intentional proposal?</strong>
             <button class="source-chip" data-source="IEP 2024 · p.12, Draft IEP 2026 · p.11">Sources</button>
           </article>
           <article>
-            <strong>What goal or accommodation addresses social engagement during recess?</strong>
-            <button class="source-chip" data-source="IEP 2023 · p.4, IEP 2024 · p.4, Draft IEP 2026 · p.5">Sources</button>
+            <strong>Why was direct OT removed and the Praxis/Motor Planning goal area eliminated?</strong>
+            <button class="source-chip" data-source="IEP 2024 · p.10, Draft IEP 2026 · p.10">Sources</button>
           </article>
           <article>
-            <strong>Why is the reading baseline unchanged if Max received a full year of intervention?</strong>
-            <button class="source-chip" data-source="IEP 2023 · p.8, IEP 2024 · p.8, Draft IEP 2026 · p.9">Sources</button>
+            <strong>How does the team justify reducing direct speech when boundary and social-pragmatic needs remain safety concerns?</strong>
+            <button class="source-chip" data-source="IEP 2024 · p.12, Draft IEP 2026 · p.7, Draft IEP 2026 · p.11">Sources</button>
+          </article>
+          <article>
+            <strong>Can Page 6 be corrected so Neurological Impairment matches the eligibility narrative on Page 7?</strong>
+            <button class="source-chip" data-source="Draft IEP 2026 · p.6, Draft IEP 2026 · p.7">Sources</button>
           </article>
         </section>
 
         <section class="script-section">
           <h2>Red Flags</h2>
           <article class="script-flag">
-            <strong>Service minutes reduced without documented mastery.</strong>
-            <p>Ask for the progress-monitoring data and the clinical rationale.</p>
+            <strong>Direct instruction drops by 24 hours per week.</strong>
+            <p>Ask the team to restore 1,800 minutes/week unless they can show clear educational data supporting the reduction.</p>
             <button class="source-chip" data-source="Draft IEP 2026 · p.11">Source</button>
           </article>
           <article class="script-flag">
-            <strong>Parent concern repeated for three years.</strong>
-            <p>Request a goal, accommodation, or structured support tied to recess participation.</p>
-            <button class="source-chip" data-source="IEP 2023 · p.4, IEP 2024 · p.4">Source</button>
+            <strong>Safety protocols expanded without matching clinical support.</strong>
+            <p>Request a social-emotional or behavioral goal and ask how boundary-intervention data will be integrated.</p>
+            <button class="source-chip" data-source="Draft IEP 2026 · p.7">Source</button>
           </article>
         </section>
 
         <section class="script-section">
           <h2>Evidence</h2>
           <article>
-            <strong>Visual schedule improves transition success.</strong>
-            <p>RBT logs show fewer prompts required when Max receives a two-step visual preview.</p>
-            <button class="source-chip" data-source="RBT Logs March 2026 · p.3">Source</button>
+            <strong>Prior service grid.</strong>
+            <p>2024 plan lists Functional Life Skills/Vocational instruction at 1,800 min/week, direct speech at 60 min/week, and direct OT at 30 min/week.</p>
+            <button class="source-chip" data-source="IEP 2024 · p.12">Source</button>
           </article>
           <article>
-            <strong>Strength-based opening statement.</strong>
-            <p>“Max is a curious visual problem-solver. We want the plan to build on that strength while giving him support for communication, reading stamina, and peer connection.”</p>
-            <button class="source-chip" data-source="Psychoeducational Evaluation · p.6">Source</button>
+            <strong>Parent opening statement.</strong>
+            <p>“We appreciate the team’s work and want to understand the data behind these reductions so AK’s safety, independence, communication, and motor-planning needs remain fully supported.”</p>
+            <button class="source-chip" data-source="Draft IEP 2026 · p.7">Source</button>
           </article>
         </section>
       </div>
@@ -392,8 +559,12 @@
   </main>
 
   <div class="source-popover" id="sourcePopover" hidden>
-    <strong>Source</strong>
+    <div class="source-popover-head">
+      <strong>Document reference</strong>
+      <button type="button" id="closeSourcePopover" aria-label="Close source reference">×</button>
+    </div>
     <p id="sourceText"></p>
+    <a id="sourceLink" href="#" target="_blank" rel="noopener">Open source page</a>
   </div>
 
   <script src="app.js"></script>
