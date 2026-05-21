@@ -1,0 +1,154 @@
+﻿StudentID,ServiceType,ServiceDescription,Location,FrequencyPerWeek,MinutesPerSession,DeliveryType,Duration
+SYN-0001,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Full IEP period
+SYN-0001,Special Education,ABA-based instruction,Classroom,5,300,Direct,School year
+SYN-0001,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,School year
+SYN-0001,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,Extended school year
+SYN-0002,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,Full IEP period
+SYN-0002,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Extended school year
+SYN-0002,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,Full IEP period
+SYN-0002,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct/Consult,School year
+SYN-0002,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,School year
+SYN-0003,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,Extended school year
+SYN-0003,Vocational Training,Campus worksite training,Worksites,5,90,Direct,Full IEP period
+SYN-0003,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Full IEP period
+SYN-0003,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct,School year
+SYN-0003,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Extended school year
+SYN-0003,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,School year
+SYN-0004,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Extended school year
+SYN-0004,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,School year
+SYN-0004,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,School year
+SYN-0004,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct/Consult,Extended school year
+SYN-0004,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Extended school year
+SYN-0005,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Consult,Full IEP period
+SYN-0005,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Extended school year
+SYN-0005,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,Full IEP period
+SYN-0005,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,Full IEP period
+SYN-0005,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Full IEP period
+SYN-0006,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,Full IEP period
+SYN-0006,Vocational Training,Campus worksite training,Worksites,5,90,Direct,Extended school year
+SYN-0006,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct/Consult,Full IEP period
+SYN-0006,Special Education,ABA-based instruction,Classroom,5,300,Direct,Extended school year
+SYN-0006,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,Extended school year
+SYN-0006,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct/Consult,Extended school year
+SYN-0007,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,Full IEP period
+SYN-0007,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,School year
+SYN-0007,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Extended school year
+SYN-0007,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct,School year
+SYN-0007,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Full IEP period
+SYN-0007,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Direct,School year
+SYN-0008,Vocational Training,Campus worksite training,Worksites,5,90,Direct/Consult,Extended school year
+SYN-0008,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Extended school year
+SYN-0008,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Extended school year
+SYN-0008,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,Extended school year
+SYN-0008,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,Extended school year
+SYN-0008,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,School year
+SYN-0009,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,School year
+SYN-0009,Vocational Training,Campus worksite training,Worksites,5,90,Direct,Extended school year
+SYN-0009,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Full IEP period
+SYN-0009,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct,School year
+SYN-0009,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Direct/Consult,Extended school year
+SYN-0010,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,Full IEP period
+SYN-0010,Vocational Training,Campus worksite training,Worksites,5,90,Consult,Full IEP period
+SYN-0010,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,Full IEP period
+SYN-0010,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,Extended school year
+SYN-0011,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct/Consult,School year
+SYN-0011,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,School year
+SYN-0011,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Full IEP period
+SYN-0011,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Full IEP period
+SYN-0011,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,Extended school year
+SYN-0012,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,School year
+SYN-0012,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Consult,Extended school year
+SYN-0012,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Extended school year
+SYN-0012,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,Extended school year
+SYN-0012,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,Full IEP period
+SYN-0013,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,School year
+SYN-0013,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,School year
+SYN-0013,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,Full IEP period
+SYN-0013,Special Education,ABA-based instruction,Classroom,5,300,Consult,Full IEP period
+SYN-0014,Special Education,ABA-based instruction,Classroom,5,300,Direct,School year
+SYN-0014,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Extended school year
+SYN-0014,Vocational Training,Campus worksite training,Worksites,5,90,Direct/Consult,School year
+SYN-0014,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct/Consult,Extended school year
+SYN-0015,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,School year
+SYN-0015,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Extended school year
+SYN-0015,Vocational Training,Campus worksite training,Worksites,5,90,Consult,Extended school year
+SYN-0015,Special Education,ABA-based instruction,Classroom,5,300,Consult,Extended school year
+SYN-0015,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct/Consult,Full IEP period
+SYN-0015,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,School year
+SYN-0016,Special Education,ABA-based instruction,Classroom,5,300,Direct,Full IEP period
+SYN-0016,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,School year
+SYN-0016,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,Extended school year
+SYN-0016,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,Extended school year
+SYN-0016,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct,Full IEP period
+SYN-0016,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Consult,Extended school year
+SYN-0016,Vocational Training,Campus worksite training,Worksites,5,90,Consult,School year
+SYN-0017,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Consult,Extended school year
+SYN-0017,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,School year
+SYN-0017,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,School year
+SYN-0017,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct,Full IEP period
+SYN-0017,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,School year
+SYN-0017,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct/Consult,School year
+SYN-0018,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,Extended school year
+SYN-0018,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct/Consult,Extended school year
+SYN-0018,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct/Consult,Full IEP period
+SYN-0018,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Full IEP period
+SYN-0019,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Extended school year
+SYN-0019,Special Education,ABA-based instruction,Classroom,5,300,Direct,Full IEP period
+SYN-0019,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,School year
+SYN-0019,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Consult,Full IEP period
+SYN-0019,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,School year
+SYN-0020,Vocational Training,Campus worksite training,Worksites,5,90,Direct/Consult,School year
+SYN-0020,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct/Consult,Extended school year
+SYN-0020,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Full IEP period
+SYN-0020,Special Education,ABA-based instruction,Classroom,5,300,Consult,Extended school year
+SYN-0021,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,Extended school year
+SYN-0021,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Consult,Extended school year
+SYN-0021,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,School year
+SYN-0021,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,School year
+SYN-0022,Special Education,ABA-based instruction,Classroom,5,300,Consult,Extended school year
+SYN-0022,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,Extended school year
+SYN-0022,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,Full IEP period
+SYN-0022,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Consult,Full IEP period
+SYN-0022,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,Full IEP period
+SYN-0023,Special Education,ABA-based instruction,Classroom,5,300,Direct,Extended school year
+SYN-0023,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct/Consult,Full IEP period
+SYN-0023,Vocational Training,Campus worksite training,Worksites,5,90,Consult,Full IEP period
+SYN-0023,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Extended school year
+SYN-0023,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Direct/Consult,School year
+SYN-0023,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,School year
+SYN-0024,Vocational Training,Campus worksite training,Worksites,5,90,Direct/Consult,Extended school year
+SYN-0024,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,Full IEP period
+SYN-0024,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Direct/Consult,Full IEP period
+SYN-0024,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct/Consult,Full IEP period
+SYN-0024,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,Extended school year
+SYN-0025,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Consult,Full IEP period
+SYN-0025,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,School year
+SYN-0025,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Consult,Full IEP period
+SYN-0025,Special Education,ABA-based instruction,Classroom,5,300,Direct,School year
+SYN-0026,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct/Consult,Full IEP period
+SYN-0026,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,School year
+SYN-0026,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct/Consult,Full IEP period
+SYN-0026,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct,School year
+SYN-0026,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,Extended school year
+SYN-0027,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,Extended school year
+SYN-0027,Special Education,ABA-based instruction,Classroom,5,300,Consult,Extended school year
+SYN-0027,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,School year
+SYN-0027,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,School year
+SYN-0027,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Consult,Full IEP period
+SYN-0028,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct/Consult,Extended school year
+SYN-0028,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Consult,School year
+SYN-0028,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,Extended school year
+SYN-0028,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,Full IEP period
+SYN-0028,Special Education,ABA-based instruction,Classroom,5,300,Direct,Extended school year
+SYN-0029,Vocational Training,Campus worksite training,Worksites,5,90,Direct,Full IEP period
+SYN-0029,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Consult,Extended school year
+SYN-0029,Special Education,ABA-based instruction,Classroom,5,300,Direct,Full IEP period
+SYN-0029,Transition Planning,Post-22 planning and agency coordination,Team meeting,1,45,Direct,School year
+SYN-0029,Assistive Technology,AAC/visual supports consultation,Classroom,1,30,Consult,Full IEP period
+SYN-0029,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,Full IEP period
+SYN-0029,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct,Full IEP period
+SYN-0030,Speech/Language,Functional communication and pragmatic language,Therapy room/classroom,2,30,Direct,Full IEP period
+SYN-0030,Behavior Consultation,BIP monitoring and staff consultation,Program-wide,1,60,Direct,Extended school year
+SYN-0030,Special Education,ABA-based instruction,Classroom,5,300,Direct/Consult,Full IEP period
+SYN-0030,Community-Based Instruction,"Safety, shopping, dining, transportation routines",Community,1,120,Direct,School year
+SYN-0030,Occupational Therapy,"Sensory processing, fine motor, ADL routines",Classroom/therapy,1,30,Direct,Full IEP period

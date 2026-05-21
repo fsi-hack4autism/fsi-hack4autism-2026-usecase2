@@ -1,0 +1,130 @@
+StudentID,ConcernArea,ConcernDescription,SourceType,Priority
+SYN-0001,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Parent concern,Medium
+SYN-0001,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,Medium
+SYN-0001,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,High
+SYN-0001,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Medium
+SYN-0002,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,Medium
+SYN-0002,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Student vision,High
+SYN-0002,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Parent concern,Low
+SYN-0002,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Medium
+SYN-0002,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,High
+SYN-0003,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Evaluation finding,High
+SYN-0003,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Team concern,Medium
+SYN-0003,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Evaluation finding,High
+SYN-0003,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Medium
+SYN-0004,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Low
+SYN-0004,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Student vision,Medium
+SYN-0004,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Team concern,Low
+SYN-0004,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,Medium
+SYN-0004,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,Low
+SYN-0005,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Low
+SYN-0005,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Evaluation finding,Low
+SYN-0005,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Team concern,Low
+SYN-0005,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,High
+SYN-0005,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,Medium
+SYN-0006,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Team concern,Medium
+SYN-0006,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Parent concern,High
+SYN-0006,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,Low
+SYN-0007,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Evaluation finding,Low
+SYN-0007,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,Medium
+SYN-0007,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Team concern,High
+SYN-0007,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Parent concern,Low
+SYN-0007,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,Medium
+SYN-0008,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Parent concern,Low
+SYN-0008,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Team concern,Low
+SYN-0008,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Low
+SYN-0008,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Evaluation finding,Low
+SYN-0008,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,Low
+SYN-0009,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Evaluation finding,Medium
+SYN-0009,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,Low
+SYN-0009,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Parent concern,Medium
+SYN-0009,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Team concern,Medium
+SYN-0010,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Team concern,Medium
+SYN-0010,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Evaluation finding,Medium
+SYN-0010,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,High
+SYN-0010,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,Low
+SYN-0011,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Team concern,Low
+SYN-0011,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,High
+SYN-0011,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,Low
+SYN-0011,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Parent concern,Medium
+SYN-0012,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Team concern,Medium
+SYN-0012,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,Low
+SYN-0012,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Parent concern,Low
+SYN-0012,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,Low
+SYN-0013,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Evaluation finding,High
+SYN-0013,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Parent concern,Low
+SYN-0013,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,Low
+SYN-0013,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Team concern,High
+SYN-0013,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Low
+SYN-0014,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Evaluation finding,Medium
+SYN-0014,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,Medium
+SYN-0014,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Parent concern,Low
+SYN-0014,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Parent concern,High
+SYN-0015,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Team concern,Medium
+SYN-0015,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Parent concern,Medium
+SYN-0015,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Team concern,Medium
+SYN-0015,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,High
+SYN-0016,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Parent concern,Medium
+SYN-0016,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Student vision,High
+SYN-0016,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Parent concern,Medium
+SYN-0016,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,Low
+SYN-0016,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,High
+SYN-0017,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Parent concern,High
+SYN-0017,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,Low
+SYN-0017,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,High
+SYN-0017,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Student vision,High
+SYN-0017,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Evaluation finding,Low
+SYN-0018,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Team concern,Low
+SYN-0018,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Team concern,Medium
+SYN-0018,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,Low
+SYN-0019,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,High
+SYN-0019,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,Low
+SYN-0019,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Team concern,Low
+SYN-0019,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Evaluation finding,Medium
+SYN-0020,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,Medium
+SYN-0020,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Student vision,Medium
+SYN-0020,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,Medium
+SYN-0021,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Parent concern,Medium
+SYN-0021,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Evaluation finding,Low
+SYN-0021,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,Low
+SYN-0021,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Evaluation finding,Low
+SYN-0021,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Parent concern,High
+SYN-0022,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Student vision,Low
+SYN-0022,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Student vision,Low
+SYN-0022,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Student vision,Medium
+SYN-0022,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Evaluation finding,Medium
+SYN-0023,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Team concern,Medium
+SYN-0023,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Parent concern,Medium
+SYN-0023,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,Medium
+SYN-0023,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,Medium
+SYN-0024,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,Medium
+SYN-0024,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Student vision,Medium
+SYN-0024,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Student vision,High
+SYN-0024,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,Medium
+SYN-0024,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Parent concern,High
+SYN-0025,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Student vision,Low
+SYN-0025,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Evaluation finding,Low
+SYN-0025,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Student vision,Medium
+SYN-0025,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Parent concern,Medium
+SYN-0025,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Evaluation finding,High
+SYN-0026,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Parent concern,Medium
+SYN-0026,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,Medium
+SYN-0026,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Parent concern,Medium
+SYN-0027,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Evaluation finding,Low
+SYN-0027,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,Medium
+SYN-0027,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Evaluation finding,Medium
+SYN-0028,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,High
+SYN-0028,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,Medium
+SYN-0028,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Team concern,High
+SYN-0028,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Team concern,High
+SYN-0028,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Evaluation finding,Low
+SYN-0029,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,Medium
+SYN-0029,Functional Communication,"Report pain, illness, injury, mistreatment, daily events, and ask for help reliably.",Evaluation finding,High
+SYN-0029,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Team concern,Medium
+SYN-0029,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Team concern,Low
+SYN-0029,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Parent concern,Medium
+SYN-0030,Daily Living Skills,"Increase independence with hygiene, dressing, bathrooming, meals, and personal care supplies.",Team concern,Medium
+SYN-0030,Safety/Community Access,"Practice parking lot, street crossing, bathroom safety, stranger safety, and emergency response.",Student vision,Low
+SYN-0030,Vocational/Transition,"Build work habits through campus jobs, recycling, laundry, greenhouse, supply room, and supported employment.",Parent concern,Low
+SYN-0030,Behavior/Self-Regulation,"Reduce maladaptive behaviors, increase regulation, use coping strategies before escalation.",Student vision,Low
+SYN-0030,Social Development,"Develop boundaries, peer interaction, shared leisure, and friendship-maintenance skills.",Student vision,Low

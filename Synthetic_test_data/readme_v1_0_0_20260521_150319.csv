@@ -1,0 +1,11 @@
+﻿Synthetic IEP Test Dataset,
+,
+Field,Description
+Source PDFs,Three redacted Massachusetts IEP documents were used only to infer schema/domain patterns; no real student identifiers are included.
+Privacy,"All names, IDs, dates, contacts, and specific personal details are synthetic."
+Intended use,"QA/testing, data-model validation, RAG demos, dashboard prototyping, and synthetic workflow testing."
+Not intended use,"Not a substitute for clinical, legal, educational, or compliance review."
+StudentID,Synthetic primary key for joining all sheets.
+Service_Frequency_Per_Week,Number of sessions or service occurrences per week.
+Service_Minutes,Minutes per service occurrence.
+Progress_Status,Mock status values for testing dashboards only.

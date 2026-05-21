@@ -1,0 +1,98 @@
+{
+  "source_workbook": "synthetic_iep_test_data (1).xlsx",
+  "dataset_version": "v1_0_0",
+  "generated_timestamp": "20260521_150319",
+  "sheet_count": 10,
+  "sheets": [
+    {
+      "sheet_name": "README",
+      "csv_file": "readme_v1_0_0_20260521_150319.csv",
+      "rows": 11,
+      "columns": 2,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Students",
+      "csv_file": "students_v1_0_0_20260521_150319.csv",
+      "rows": 31,
+      "columns": 18,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Concerns",
+      "csv_file": "concerns_v1_0_0_20260521_150319.csv",
+      "rows": 130,
+      "columns": 5,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Goals",
+      "csv_file": "goals_v1_0_0_20260521_150319.csv",
+      "rows": 121,
+      "columns": 8,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Services",
+      "csv_file": "services_v1_0_0_20260521_150319.csv",
+      "rows": 154,
+      "columns": 8,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Accommodations",
+      "csv_file": "accommodations_v1_0_0_20260521_150319.csv",
+      "rows": 247,
+      "columns": 4,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Assessments",
+      "csv_file": "assessments_v1_0_0_20260521_150319.csv",
+      "rows": 115,
+      "columns": 5,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Behavior_Data",
+      "csv_file": "behavior_data_v1_0_0_20260521_150319.csv",
+      "rows": 121,
+      "columns": 7,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Lists",
+      "csv_file": "lists_v1_0_0_20260521_150319.csv",
+      "rows": 5,
+      "columns": 4,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    },
+    {
+      "sheet_name": "Dashboard",
+      "csv_file": "dashboard_v1_0_0_20260521_150319.csv",
+      "rows": 14,
+      "columns": 4,
+      "dataset_version": "v1_0_0",
+      "generated_timestamp": "20260521_150319",
+      "formula_handling": "Formulas preserved as formula text where present because CSV does not store workbook calculation state."
+    }
+  ]
+}
